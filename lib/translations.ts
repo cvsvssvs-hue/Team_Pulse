@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     header: {
-      sakura: "Team Pulse",
+      teamPulse: "Team Pulse",
       agency: "Marketing Agency",
       services: "Services",
       about: "About",
@@ -71,7 +71,7 @@ export const translations = {
   },
   ru: {
     header: {
-      sakura: "Team Pulse",
+      teamPulse: "Team Pulse",
       agency: "Marketing Agency",
       services: "Услуги",
       about: "О нас",
@@ -141,7 +141,7 @@ export const translations = {
   },
   ko: {
     header: {
-      sakura: "Team Pulse",
+      teamPulse: "Team Pulse",
       agency: "마케팅 에이전시",
       services: "서비스",
       about: "회사 소개",

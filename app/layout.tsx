@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Team Pulse - Sakura Marketing Agency",
-  description: "Premium marketing agency specializing in branding, content creation, and lead generation with luxury dark + sakura aesthetics.",
+  title: "Team Pulse - Team Pulse Marketing Agency",
+  description: "Premium marketing agency specializing in branding, content creation, and lead generation with luxury dark + team pulse aesthetics.",
 };
 
 export default function RootLayout({

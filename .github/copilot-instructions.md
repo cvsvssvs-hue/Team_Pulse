@@ -8,7 +8,7 @@
 	<!-- Next.js project scaffolded with TypeScript, Tailwind, ESLint -->
 
 - [x] Customize the Project
-	<!-- Landing page implemented with Sakura Marketing Agency design, multi-language support added (EN/RU/KO) -->
+	<!-- Landing page implemented with Team Pulse Marketing Agency design, multi-language support added (EN/RU/KO) -->
 
 - [ ] Install Required Extensions
 	<!-- No extensions needed -->

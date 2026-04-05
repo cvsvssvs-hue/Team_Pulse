@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
           <Link href="/" className="flex flex-col">
             <span className="text-xs uppercase tracking-[0.45em] text-pink-200/70">
-              {t('header.sakura')}
+              {t('header.teamPulse')}
             </span>
             <span className="text-xl font-semibold tracking-wide">
               {t('header.agency')}

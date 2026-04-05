@@ -1,6 +1,6 @@
-# Team Pulse - Sakura Marketing Agency Landing Page
+# Team Pulse - Team Pulse Marketing Agency Landing Page
 
-A premium marketing agency landing page built with Next.js, featuring a dark luxury design with pink sakura accents. Showcases branding, content creation, and lead generation services.
+A premium marketing agency landing page built with Next.js, featuring a dark luxury design with pink team pulse accents. Showcases branding, content creation, and lead generation services.
 
 ## 🌍 Multi-Language Support
 

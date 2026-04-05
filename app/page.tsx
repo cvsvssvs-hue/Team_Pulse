@@ -29,7 +29,7 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
           <div className="flex flex-col">
             <span className="text-xs uppercase tracking-[0.45em] text-pink-200/70">
-              {t('header.sakura')}
+              {t('header.teamPulse')}
             </span>
             <span className="text-xl font-semibold tracking-wide">
               {t('header.agency')}
@@ -153,7 +153,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="rounded-full border border-pink-200/20 px-3 py-1 text-xs text-pink-100/80">
-                Sakura Style
+                Team Pulse Style
               </div>
             </div>
 
