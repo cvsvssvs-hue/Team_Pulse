@@ -99,20 +99,20 @@ export default function HomePage() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-8 flex flex-wrap gap-4"
           >
-            <a
-              href="#contact"
+            <Link
+              href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-6 py-3 text-sm font-semibold text-black transition hover:scale-[1.02]"
             >
-              {t('hero.bookConsultation')}
+              Get Your First Clients in 14 Days
               <ArrowRight className="h-4 w-4" />
-            </a>
+            </Link>
 
-            <a
-              href="#services"
+            <Link
+              href="/services"
               className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white/85 transition hover:bg-white/5"
             >
               {t('hero.viewServices')}
-            </a>
+            </Link>
           </motion.div>
 
           <div className="mt-12 grid gap-4 sm:grid-cols-3">
@@ -219,20 +219,20 @@ export default function HomePage() {
                 <Link href="/about" className="block text-white/60 hover:text-white transition">
                   {t('header.about')}
                 </Link>
-                <Link href="/process" className="block text-white/60 hover:text-white transition">
-                  {t('header.process')}
+                <Link href="/blog" className="block text-white/60 hover:text-white transition">
+                  Blog
                 </Link>
-                <Link href="/contact" className="block text-white/60 hover:text-white transition">
-                  {t('header.contact')}
+                <Link href="/case-studies" className="block text-white/60 hover:text-white transition">
+                  Case Studies
                 </Link>
               </div>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <div className="space-y-2 text-white/60">
-                <div>+1 (941) 735-6655</div>
-                <div>@yourtelegram</div>
-                <div>yourwebsite.com</div>
+                <div>Sarasota, Florida</div>
+                <div>@theteampulse</div>
+                <div>teampulsemarketing1@gmail.com</div>
               </div>
             </div>
           </div>
