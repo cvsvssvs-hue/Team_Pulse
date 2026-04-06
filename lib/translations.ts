@@ -2,7 +2,7 @@ export const translations = {
   en: {
     header: {
       teamPulse: "Team Pulse",
-      agency: "Marketing Agency",
+      agency: "Team Pulse",
       services: "Services",
       about: "About",
       process: "Process",
@@ -76,7 +76,7 @@ export const translations = {
   ru: {
     header: {
       teamPulse: "Team Pulse",
-      agency: "Marketing Agency",
+      agency: "Team Pulse",
       services: "Услуги",
       about: "О нас",
       process: "Процесс",

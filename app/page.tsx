@@ -199,10 +199,10 @@ export default function HomePage() {
             <div className="md:col-span-2">
               <div className="flex flex-col mb-4">
                 <span className="text-xs uppercase tracking-[0.45em] text-pink-200/70">
-                  {t('header.sakura')}
+                  {t('header.teamPulse')}
                 </span>
                 <span className="text-xl font-semibold tracking-wide">
-                  {t('header.agency')}
+                  Team Pulse
                 </span>
               </div>
               <p className="text-white/60 max-w-md">

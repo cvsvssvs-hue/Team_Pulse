@@ -68,9 +68,9 @@ export default function CaseStudies() {
             <h3 className="mb-4 text-xl font-semibold text-pink-200">Our Strategy</h3>
             <div className="space-y-4">
               <div>
-                <h4 className="font-semibold">Week 1-2: Audit & Strategy Sprint</h4>
+                <h4 className="font-semibold">Week 1-2: Audit &amp; Strategy Sprint</h4>
                 <p className="mt-2 text-white/70">
-                  • Analyzed competitor keywords (local searches: "authentic Mexican Sarasota," "dinner Siesta Key")<br/>
+                  • Analyzed competitor keywords (local searches: &ldquo;authentic Mexican Sarasota,&rdquo; &ldquo;dinner Siesta Key&rdquo;)<br/>
                   • Built Facebook/Instagram content calendar (3 posts/week: food, behind-scenes, local events)<br/>
                   • Restructured Google Ads (cut waste, focused on high-intent keywords)
                 </p>
@@ -110,7 +110,7 @@ export default function CaseStudies() {
 
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6">
             <p className="italic text-white/80">
-              "We didn't know what we were doing. They turned our ads from money-wasting into a customer machine. We're now fully booked Thursday-Saturday." – Owner, Salsa Fresca
+              &ldquo;We didn&rsquo;t know what we were doing. They turned our ads from money-wasting into a customer machine. We&rsquo;re now fully booked Thursday-Saturday.&rdquo; – Owner, Salsa Fresca
             </p>
           </div>
         </motion.div>
