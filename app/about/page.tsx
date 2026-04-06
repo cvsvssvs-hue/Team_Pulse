@@ -74,15 +74,6 @@ export default function AboutPage() {
           >
             {t('about.title')}
           </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 22 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.12 }}
-            className="mx-auto max-w-3xl text-lg leading-8 text-white/70"
-          >
-            {t('about.content')}
-          </motion.p>
         </div>
 
         <div className="grid gap-8 lg:grid-cols-2">
