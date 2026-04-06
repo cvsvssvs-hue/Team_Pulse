@@ -41,7 +41,12 @@ export const translations = {
     },
     about: {
       title: "Design that looks expensive",
-      content: "This site is inspired by your business card aesthetic: dark base, pink accents, clean blocks, premium atmosphere and presentation that distinguishes the agency from ordinary templates."
+      content: "This site is inspired by your business card aesthetic: dark base, pink accents, clean blocks, premium atmosphere and presentation that distinguishes the agency from ordinary templates.",
+      contactsTitle: "Contacts",
+      contacts: {
+        telegram: "@theteampulse",
+        email: "teampulsemarketing1@gmail.com"
+      }
     },
     whyUs: [
       "Premium visual style from the first screen",
@@ -111,7 +116,12 @@ export const translations = {
     },
     about: {
       title: "Дизайн, который выглядит дорого",
-      content: "Этот сайт вдохновлён эстетикой твоей визитки: тёмная база, розовые акценты, чистые блоки, премиальная атмосфера и подача, которая выделяет агентство на фоне обычных шаблонов."
+      content: "Этот сайт вдохновлён эстетикой твоей визитки: тёмная база, розовые акценты, чистые блоки, премиальная атмосфера и подача, которая выделяет агентство на фоне обычных шаблонов.",
+      contactsTitle: "Контакты",
+      contacts: {
+        telegram: "@theteampulse",
+        email: "teampulsemarketing1@gmail.com"
+      }
     },
     whyUs: [
       "Премиальный визуальный стиль с первого экрана",
@@ -181,7 +191,12 @@ export const translations = {
     },
     about: {
       title: "비용이 많이 들어 보이는 디자인",
-      content: "이 사이트는 귀하의 명함 미학에서 영감을 받았습니다: 어두운 베이스, 핑크 액센트, 깨끗한 블록, 프리미엄 분위기 및 일반 템플릿과 구별되는 프레젠테이션."
+      content: "이 사이트는 귀하의 명함 미학에서 영감을 받았습니다: 어두운 베이스, 핑크 액센트, 깨끗한 블록, 프리미엄 분위기 및 일반 템플릿과 구별되는 프레젠테이션.",
+      contactsTitle: "연락처",
+      contacts: {
+        telegram: "@theteampulse",
+        email: "teampulsemarketing1@gmail.com"
+      }
     },
     whyUs: [
       "첫 화면의 프리미엄 비주얼 스타일",

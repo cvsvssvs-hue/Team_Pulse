@@ -131,6 +131,38 @@ export default function AboutPage() {
           </motion.div>
         </div>
 
+        <section className="mt-16">
+          <motion.h2
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="text-2xl font-semibold mb-6"
+          >
+            {t('about.contactsTitle')}
+          </motion.h2>
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="flex flex-col gap-4 md:flex-row"
+          >
+            <a
+              href="https://t.me/theteampulse"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-pink-200/25 bg-white/5 px-6 py-3 text-sm font-medium text-pink-100 transition hover:bg-white/10"
+            >
+              <span>Telegram: {t('about.contacts.telegram')}</span>
+            </a>
+            <a
+              href="mailto:teampulsemarketing1@gmail.com"
+              className="inline-flex items-center gap-2 rounded-full border border-pink-200/25 bg-white/5 px-6 py-3 text-sm font-medium text-pink-100 transition hover:bg-white/10"
+            >
+              <span>Email: {t('about.contacts.email')}</span>
+            </a>
+          </motion.div>
+        </section>
+
         <motion.div
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
