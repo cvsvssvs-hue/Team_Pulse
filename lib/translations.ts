@@ -71,6 +71,24 @@ export const translations = {
         message: "Tell us what you need",
         send: "Send inquiry"
       }
+    },
+    seoContent: {
+      homepage: `Are you a small business owner in Sarasota struggling to get consistent clients? You're not alone. In a competitive Florida market, standing out from the crowd requires more than just good service—it demands strategic marketing that actually works.
+
+      As a leading marketing agency Sarasota, Team Pulse specializes in helping local businesses like yours attract qualified leads and turn them into loyal customers. Our proven lead generation Florida strategies combine targeted ads, compelling content, and data-driven optimization to deliver real results.
+
+      Whether you're a restaurant owner, service provider, or retail business, our ads for small business approach focuses on what matters most: getting you more paying customers. We understand the unique challenges of the Sarasota business landscape—from seasonal tourism fluctuations to local competition—and we tailor our strategies accordingly.
+
+      Our comprehensive marketing services include:
+      • Strategic lead generation campaigns that target your ideal customers
+      • High-converting ads for small business across Google, Facebook, and Instagram
+      • Professional content creation that builds trust and authority
+      • Website optimization that turns visitors into clients
+      • Ongoing performance tracking and optimization
+
+      Don't let another month go by with inconsistent client flow. Join the growing number of Sarasota businesses who've transformed their marketing with Team Pulse. Our track record speaks for itself—with clients seeing an average of 300% increase in qualified leads within the first 90 days.
+
+      Ready to stop guessing and start growing? Book your free strategy call today and discover how we can help your Sarasota business get the clients it deserves.`
     }
   },
   ru: {

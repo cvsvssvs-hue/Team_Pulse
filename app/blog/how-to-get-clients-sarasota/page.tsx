@@ -78,9 +78,9 @@ export default function BlogPost() {
               You&rsquo;ve got a great service. But nobody knows about it. You&rsquo;ve tried &ldquo;being on Facebook,&rdquo; spent money on ads that went nowhere, or hired someone who didn&rsquo;t deliver. Meanwhile, your competitors seem to have an endless stream of clients.
             </p>
             <p className="mt-4 leading-7 text-white/70">
-              Here&rsquo;s what most small businesses don&rsquo;t realize: <strong>getting clients isn&rsquo;t hard&mdash;getting them profitably and predictably is.</strong>
+              Here&rsquo;s what most small businesses don&rsquo;t realize: <strong>getting clients isn&rsquo;t hard&mdash;getting them profitably and predictably is.</strong> If you&rsquo;re a small business owner in Sarasota looking to get clients through effective marketing, this guide will show you exactly how to implement small business marketing Florida strategies that actually work.
             </p>
-            <p className="mt-4 leading-7 text-white/70">This guide shows you exactly how.</p>
+            <p className="mt-4 leading-7 text-white/70">This guide shows you exactly how to get clients Sarasota businesses need.</p>
           </div>
 
           {sections.map((section, index) => (
@@ -137,7 +137,7 @@ export default function BlogPost() {
               <p>5. Tracking and optimizing</p>
             </div>
             <p className="mt-6 leading-7 text-white/70">
-              Most businesses either don&rsquo;t do this at all, or they do it poorly. That&rsquo;s your opportunity.
+              Most businesses either don&rsquo;t do this at all, or they do it poorly. That&rsquo;s your opportunity. When you implement these small business marketing Florida strategies consistently, you&rsquo;ll start to see real results in getting clients Sarasota businesses depend on for growth.
             </p>
           </div>
         </motion.div>

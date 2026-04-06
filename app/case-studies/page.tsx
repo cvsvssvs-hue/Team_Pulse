@@ -39,7 +39,7 @@ export default function CaseStudies() {
           transition={{ duration: 0.7 }}
           className="mb-16 text-center"
         >
-          <h1 className="text-5xl font-semibold md:text-6xl">Case Studies</h1>
+          <h1 className="text-5xl font-semibold md:text-6xl">Marketing Case Studies | Real Client Results</h1>
           <p className="mt-6 text-lg text-white/70">Real results from real businesses</p>
         </motion.div>
 
@@ -113,6 +113,46 @@ export default function CaseStudies() {
               &ldquo;We didn&rsquo;t know what we were doing. They turned our ads from money-wasting into a customer machine. We&rsquo;re now fully booked Thursday-Saturday.&rdquo; – Owner, Salsa Fresca
             </p>
           </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 22 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.15 }}
+          className="mt-16 rounded-3xl border border-white/10 bg-gradient-to-br from-white/6 to-white/[0.03] p-8 backdrop-blur-sm"
+        >
+          <h2 className="mb-6 text-3xl font-semibold text-center">Proven Results Across Industries</h2>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-pink-200 mb-2">353%</div>
+              <div className="text-white/70">Average customer growth in 90 days</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-pink-200 mb-2">67%</div>
+              <div className="text-white/70">Reduction in customer acquisition cost</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-pink-200 mb-2">94%</div>
+              <div className="text-white/70">Client retention rate after 6 months</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-pink-200 mb-2">$2.8M</div>
+              <div className="text-white/70">Total revenue generated for clients</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-pink-200 mb-2">50+</div>
+              <div className="text-white/70">Successful marketing campaigns launched</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-pink-200 mb-2">4.9/5</div>
+              <div className="text-white/70">Average client satisfaction rating</div>
+            </div>
+          </div>
+          <p className="mt-8 text-center text-white/80 leading-relaxed">
+            These aren't just numbers—they're real businesses in Sarasota and Florida that went from struggling to thriving. 
+            From restaurants and service providers to retail shops and professional practices, our data-driven marketing 
+            strategies deliver consistent, measurable results that grow your bottom line.
+          </p>
         </motion.div>
 
         <motion.div

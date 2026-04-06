@@ -193,6 +193,36 @@ export default function HomePage() {
         </motion.div>
       </section>
 
+      {/* SEO Content Section */}
+      <section className="relative z-10 mx-auto max-w-4xl px-6 py-16 lg:px-10">
+        <motion.div
+          initial={{ opacity: 0, y: 22 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.3 }}
+          className="prose prose-lg prose-invert max-w-none"
+        >
+          <h1 className="text-4xl font-semibold mb-8 text-center">
+            Marketing Agency in Sarasota | Lead Generation & Ads
+          </h1>
+          <div className="text-white/80 leading-relaxed space-y-6">
+            {t('seoContent.homepage').split('\n\n').map((paragraph, index) => (
+              <p key={index} className="text-lg">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+          <div className="mt-12 text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-8 py-4 text-lg font-semibold text-black transition hover:scale-[1.02]"
+            >
+              Book Your Free Strategy Call
+              <ArrowRight className="h-5 w-5" />
+            </Link>
+          </div>
+        </motion.div>
+      </section>
+
       <footer className="relative z-10 border-t border-white/10 bg-black/20 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
           <div className="grid gap-8 md:grid-cols-4">
