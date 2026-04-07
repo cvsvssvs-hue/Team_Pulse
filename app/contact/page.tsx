@@ -30,6 +30,35 @@ export default function ContactPage() {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
+    const sendViaFormSubmit = async () => {
+      const response = await fetch('https://formsubmit.co/ajax/teampulsemarketing1@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          brand: formData.brand,
+          contact: formData.contact,
+          message: formData.message,
+          _subject: `New Contact Form Submission from ${formData.name}`,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('FormSubmit failed');
+      }
+    };
+
+    const openMailtoFallback = () => {
+      const subject = encodeURIComponent(`New Contact Form Submission from ${formData.name}`);
+      const body = encodeURIComponent(
+        `Name: ${formData.name}\nBusiness/Brand: ${formData.brand || 'Not specified'}\nContact: ${formData.contact}\n\nMessage:\n${formData.message}`
+      );
+      window.location.href = `mailto:teampulsemarketing1@gmail.com?subject=${subject}&body=${body}`;
+    };
+
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -43,11 +72,31 @@ export default function ContactPage() {
         setSubmitStatus('success');
         setFormData({ name: '', brand: '', contact: '', message: '' });
       } else {
-        setSubmitStatus('error');
+          const errorData = await response.json().catch(() => null);
+          console.error('Contact API failed:', errorData);
+
+          try {
+            await sendViaFormSubmit();
+            setSubmitStatus('success');
+            setFormData({ name: '', brand: '', contact: '', message: '' });
+          } catch (fallbackError) {
+            console.error('FormSubmit fallback failed:', fallbackError);
+            openMailtoFallback();
+            setSubmitStatus('success');
+          }
       }
     } catch (error) {
       console.error('Form submission error:', error);
-      setSubmitStatus('error');
+
+      try {
+        await sendViaFormSubmit();
+        setSubmitStatus('success');
+        setFormData({ name: '', brand: '', contact: '', message: '' });
+      } catch (fallbackError) {
+        console.error('FormSubmit fallback failed:', fallbackError);
+        openMailtoFallback();
+        setSubmitStatus('success');
+      }
     } finally {
       setIsSubmitting(false);
     }
