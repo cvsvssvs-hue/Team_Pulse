@@ -3,22 +3,13 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Calendar, Clock } from 'lucide-react'
 import Link from 'next/link'
+import { getAllBlogPosts } from '@/lib/blog-posts'
 import { useLanguage } from '@/lib/language-context'
 
 export default function BlogPage() {
   const { t } = useLanguage()
 
-  const articles = [
-    {
-      slug: 'how-to-get-clients-sarasota',
-      title: t('blogPage.article.title'),
-      subtitle: t('blogPage.article.subtitle'),
-      excerpt: t('blogPage.article.excerpt'),
-      date: t('blogPage.article.date'),
-      readTime: t('blogPage.article.readTime'),
-      category: t('blogPage.article.category')
-    }
-  ]
+  const articles = getAllBlogPosts()
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-black via-[#0a0a0a] to-black">

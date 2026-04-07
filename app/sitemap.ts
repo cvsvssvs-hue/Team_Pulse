@@ -1,18 +1,28 @@
 import { MetadataRoute } from 'next'
+import { getAllBlogPosts } from '@/lib/blog-posts'
+
+const baseUrl = 'https://teampulse.marketing'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: 'https://teampulse.marketing',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://teampulse.marketing/services',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://teampulse.marketing/contact',
-      lastModified: new Date(),
-    },
+  const staticRoutes = [
+    '',
+    '/services',
+    '/about',
+    '/process',
+    '/contact',
+    '/case-studies',
+    '/blog',
   ]
+
+  const staticEntries = staticRoutes.map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date(),
+  }))
+
+  const blogEntries = getAllBlogPosts().map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(),
+  }))
+
+  return [...staticEntries, ...blogEntries]
 }
