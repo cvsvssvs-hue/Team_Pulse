@@ -7,6 +7,7 @@ export default function LanguageSwitcher() {
 
   const languages: Array<{ code: Language; name: string; flag: string }> = [
     { code: 'en', name: 'EN', flag: '🇺🇸' },
+    { code: 'es', name: 'ES-MX', flag: '🇲🇽' },
     { code: 'ru', name: 'RU', flag: '🇷🇺' },
     { code: 'ko', name: 'KO', flag: '🇰🇷' }
   ];
