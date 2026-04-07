@@ -123,7 +123,7 @@ export default function ContactPage() {
 
           <nav className="hidden items-center gap-8 text-sm text-white/70 md:flex">
             <Link href="/" className="transition hover:text-white">
-              Home
+              {t('header.home')}
             </Link>
             <Link href="/services" className="transition hover:text-white">
               {t('header.services')}
@@ -157,7 +157,7 @@ export default function ContactPage() {
             className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-pink-200/20 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-pink-100/80"
           >
             <Mail className="h-4 w-4" />
-            Get In Touch
+            {t('contactPage.badge')}
           </motion.div>
 
           <motion.h1
@@ -187,15 +187,15 @@ export default function ContactPage() {
             className="space-y-8"
           >
             <div>
-              <h3 className="mb-6 text-2xl font-semibold">Contact Information</h3>
+              <h3 className="mb-6 text-2xl font-semibold">{t('contactPage.contactInformation')}</h3>
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-pink-200/30 to-rose-300/20">
                     <Phone className="h-5 w-5 text-pink-100" />
                   </div>
                   <div>
-                    <div className="text-sm text-white/60">Phone</div>
-                    <div className="font-medium">+1 (941) 735-6655</div>
+                    <div className="text-sm text-white/60">{t('contactPage.phone')}</div>
+                    <div className="font-medium">{t('contactPage.phoneValue')}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -203,8 +203,8 @@ export default function ContactPage() {
                     <Send className="h-5 w-5 text-pink-100" />
                   </div>
                   <div>
-                    <div className="text-sm text-white/60">Telegram</div>
-                    <div className="font-medium">@theteampulse</div>
+                    <div className="text-sm text-white/60">{t('contactPage.telegram')}</div>
+                    <div className="font-medium">{t('contactPage.telegramValue')}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -212,8 +212,8 @@ export default function ContactPage() {
                     <Send className="h-5 w-5 text-pink-100" />
                   </div>
                   <div>
-                    <div className="text-sm text-white/60">WhatsApp</div>
-                    <div className="font-medium">+1 (941) 735-6655</div>
+                    <div className="text-sm text-white/60">{t('contactPage.whatsapp')}</div>
+                    <div className="font-medium">{t('contactPage.whatsappValue')}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -221,8 +221,8 @@ export default function ContactPage() {
                     <AtSign className="h-5 w-5 text-pink-100" />
                   </div>
                   <div>
-                    <div className="text-sm text-white/60">Instagram</div>
-                    <div className="font-medium">@the.team.pulse</div>
+                    <div className="text-sm text-white/60">{t('contactPage.instagram')}</div>
+                    <div className="font-medium">{t('contactPage.instagramValue')}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -230,27 +230,27 @@ export default function ContactPage() {
                     <Send className="h-5 w-5 text-pink-100" />
                   </div>
                   <div>
-                    <div className="text-sm text-white/60">Reddit</div>
-                    <div className="font-medium">u/Individual_Might3830</div>
+                    <div className="text-sm text-white/60">{t('contactPage.reddit')}</div>
+                    <div className="font-medium">{t('contactPage.redditValue')}</div>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6">
-              <h4 className="mb-4 font-semibold">Business Hours</h4>
+              <h4 className="mb-4 font-semibold">{t('contactPage.businessHours')}</h4>
               <div className="space-y-2 text-sm text-white/70">
                 <div className="flex justify-between">
-                  <span>Monday - Friday</span>
+                  <span>{t('contactPage.mondayFriday')}</span>
                   <span>9:00 AM - 6:00 PM</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Saturday</span>
+                  <span>{t('contactPage.saturday')}</span>
                   <span>10:00 AM - 4:00 PM</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span>Closed</span>
+                  <span>{t('contactPage.sunday')}</span>
+                  <span>{t('contactPage.closed')}</span>
                 </div>
               </div>
             </div>
@@ -262,7 +262,7 @@ export default function ContactPage() {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="rounded-[2rem] border border-white/10 bg-white/5 p-8 backdrop-blur-xl"
           >
-            <h3 className="mb-6 text-2xl font-semibold">Send us a message</h3>
+            <h3 className="mb-6 text-2xl font-semibold">{t('contactPage.sendMessage')}</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid gap-4 md:grid-cols-2">
                 <div>
@@ -325,14 +325,14 @@ export default function ContactPage() {
               {submitStatus === 'success' && (
                 <div className="flex items-center gap-2 rounded-2xl bg-green-500/10 border border-green-500/20 p-4">
                   <CheckCircle className="h-5 w-5 text-green-400" />
-                  <span className="text-green-400">Message sent successfully!</span>
+                  <span className="text-green-400">{t('contactPage.success')}</span>
                 </div>
               )}
 
               {submitStatus === 'error' && (
                 <div className="flex items-center gap-2 rounded-2xl bg-red-500/10 border border-red-500/20 p-4">
                   <AlertCircle className="h-5 w-5 text-red-400" />
-                  <span className="text-red-400">Failed to send message. Please try again.</span>
+                  <span className="text-red-400">{t('contactPage.error')}</span>
                 </div>
               )}
 
@@ -341,7 +341,7 @@ export default function ContactPage() {
                 disabled={isSubmitting}
                 className="w-full rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 py-4 text-lg font-semibold text-black transition hover:scale-[1.01] hover:shadow-lg hover:shadow-pink-500/25 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? 'Sending...' : t('contact.form.send')}
+                {isSubmitting ? t('contactPage.sending') : t('contact.form.send')}
               </button>
             </form>
           </motion.div>

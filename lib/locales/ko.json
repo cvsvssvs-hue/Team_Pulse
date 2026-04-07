@@ -1,0 +1,285 @@
+{
+  "header": {
+    "teamPulse": "Team Pulse Marketing",
+    "agency": "Team Pulse Marketing",
+    "home": "홈",
+    "services": "서비스",
+    "about": "회사 소개",
+    "process": "프로세스",
+    "contact": "연락처",
+    "startProject": "프로젝트 시작"
+  },
+  "buttons": {
+    "bookCall": "무료 전략 상담 예약",
+    "backHome": "홈으로 돌아가기",
+    "readArticle": "기사 읽기",
+    "workWithUs": "함께 일하기",
+    "startProject": "프로젝트 시작",
+    "viewCaseStudy": "케이스 스터디 보기 →",
+    "send": "문의 보내기",
+    "heroPrimary": "14일 안에 첫 고객 확보하기"
+  },
+  "hero": {
+    "badge": "프리미엄 • 우아함 • 고전환율",
+    "title": "관심을 브랜드 성장과 리드로 전환합니다",
+    "subtitle": "웹사이트, 콘텐츠, 릴, 광고, 브랜딩 패키징을 프리미엄 감성으로 제공하는 스타일리시 마케팅 에이전시입니다.",
+    "viewServices": "서비스 보기",
+    "seoHeading": "사라소타 마케팅 에이전시 | 리드 생성 및 광고"
+  },
+  "stats": [
+    { "value": "24/7", "label": "온라인 존재감" },
+    { "value": "3x", "label": "더 강한 첫인상" },
+    { "value": "100%", "label": "맞춤형 접근" }
+  ],
+  "features": {
+    "badge": "추천",
+    "title": "브랜드 경험",
+    "styleTag": "Team Pulse Marketing 스타일",
+    "conceptLabel": "에이전시 컨셉",
+    "conceptValue": "럭셔리 + 부드러운 핑크 대비",
+    "offerLabel": "제안",
+    "offerValue": "웹사이트, 광고, 콘텐츠, 릴, 전략",
+    "feelingLabel": "고객이 느끼는 인상",
+    "feelingValue": "프리미엄, 현대적, 기억에 남는 느낌",
+    "goalLabel": "목표",
+    "goalValue": "더 많은 신뢰, 더 많은 클릭, 더 많은 리드"
+  },
+  "footer": {
+    "description": "실제 비즈니스 성과를 만드는 프리미엄 마케팅 에이전시입니다.",
+    "navigation": "탐색",
+    "blog": "블로그",
+    "caseStudies": "케이스 스터디",
+    "contact": "연락처",
+    "location": "사라소타, 플로리다",
+    "telegram": "@theteampulse",
+    "email": "teampulsemarketing1@gmail.com",
+    "copyright": "© 2024 Team Pulse Marketing Agency. All rights reserved."
+  },
+  "services": {
+    "title": "우리가 하는 일",
+    "subtitle": "서비스 판매와 브랜드 강화를 돕는 프리미엄 비주얼과 명확한 구조를 제공합니다."
+  },
+  "servicesPage": {
+    "badge": "전문 서비스",
+    "seeResults": "실제 결과 보기",
+    "resultsText": "Salsa Fresca가 30일 만에 주간 고객을 15명에서 68명으로 늘린 사례를 확인하세요.",
+    "cards": [
+      {
+        "title": "유료 광고 (Facebook, Instagram, Google)",
+        "desc": "구매 의도가 높은 고객을 타겟팅하는 고전환 광고 캠페인을 기획·운영합니다. 매일 최적화하여 예측 가능한 ROI를 만듭니다.",
+        "results": [
+          "60일 내 평균 ROI 3-5배",
+          "예측 가능한 고객 유입",
+          "광고비 낭비 최소화"
+        ]
+      },
+      {
+        "title": "콘텐츠 제작 및 소셜 전략",
+        "desc": "이상적인 고객에 맞춘 전략적 콘텐츠 캘린더를 구축합니다. 꾸준한 포스팅과 참여로 브랜드 신뢰를 강화합니다.",
+        "results": [
+          "브랜드 권위 강화",
+          "지속적인 오디언스 성장",
+          "전환되는 팔로워 확보"
+        ]
+      },
+      {
+        "title": "리드 생성 시스템",
+        "desc": "광고 → 랜딩페이지 → CRM → 상담까지 완전한 퍼널을 구축합니다. 모든 단계를 추적하고 전환율을 최적화합니다.",
+        "results": [
+          "맞춤형 랜딩페이지",
+          "리드 자동화",
+          "확장 가능한 고객 획득 시스템"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "비용이 많이 들어 보이는 디자인",
+    "contactsTitle": "연락처",
+    "contacts": {
+      "telegram": "@theteampulse",
+      "email": "teampulsemarketing1@gmail.com"
+    }
+  },
+  "whyUs": [
+    "첫 화면부터 프리미엄 비주얼 스타일",
+    "저렴한 템플릿 느낌이 없는 현대적 표현",
+    "리드, 신뢰, 비즈니스 성장 중심"
+  ],
+  "aboutPage": {
+    "badge": "회사 소개",
+    "whyChooseUs": "왜 우리를 선택해야 하나요?",
+    "mission": "우리의 미션",
+    "missionText": "우리는 실제 비즈니스 성과를 만드는 뛰어난 디지털 경험을 만듭니다. 우리 팀은 창의성과 전략을 결합해 아름답고 성과가 뛰어난 솔루션을 제공합니다.",
+    "projectsCompleted": "완료 프로젝트",
+    "clientSatisfaction": "고객 만족도",
+    "telegramLabel": "Telegram",
+    "emailLabel": "이메일"
+  },
+  "process": {
+    "title": "우리의 작업 방식",
+    "steps": [
+      "브랜드와 시장을 분석합니다",
+      "강력한 비주얼과 제안을 구성합니다",
+      "사이트, 콘텐츠, 광고를 런칭합니다",
+      "리드와 판매를 최적화합니다"
+    ]
+  },
+  "processPage": {
+    "badge": "우리의 프로세스",
+    "subtitle": "협업과 전문성을 통해 뛰어난 결과를 만드는 체계적인 접근 방식입니다.",
+    "stepTitles": [
+      "발견 및 분석",
+      "전략 및 계획",
+      "디자인 및 개발",
+      "런칭 및 최적화"
+    ],
+    "stepDescriptions": [
+      "비즈니스, 목표, 타겟 고객, 현재 과제를 파악합니다. 시장 조사와 경쟁 분석이 포함됩니다.",
+      "분석 결과를 바탕으로 전략과 일정, 산출물이 포함된 상세 계획을 수립합니다.",
+      "크리에이티브 팀이 디자인, 콘텐츠, 기술 구현을 통해 전략을 현실화합니다.",
+      "프로젝트를 런칭하고 성과를 지속적으로 모니터링하며 데이터 기반으로 최적화합니다."
+    ],
+    "durations": ["1-2주", "1주", "3-6주", "지속 진행"]
+  },
+  "contact": {
+    "title": "기억에 남을 브랜드를 만들어 봅시다",
+    "subtitle": "전화, Telegram, WhatsApp, Instagram, 이메일을 통해 Sarasota의 Team Pulse Marketing에 직접 문의하세요.",
+    "form": {
+      "name": "이름",
+      "brand": "비즈니스 / 브랜드",
+      "contact": "전화 또는 이메일",
+      "message": "필요한 내용을 알려주세요",
+      "send": "문의 보내기"
+    }
+  },
+  "contactPage": {
+    "badge": "문의하기",
+    "contactInformation": "연락처 정보",
+    "phone": "전화",
+    "phoneValue": "+1 (941) 735-6655",
+    "telegram": "Telegram",
+    "telegramValue": "@theteampulse",
+    "whatsapp": "WhatsApp",
+    "whatsappValue": "+1 (941) 735-6655",
+    "instagram": "Instagram",
+    "instagramValue": "@the.team.pulse",
+    "reddit": "Reddit",
+    "redditValue": "u/Individual_Might3830",
+    "businessHours": "운영 시간",
+    "mondayFriday": "월요일 - 금요일",
+    "saturday": "토요일",
+    "sunday": "일요일",
+    "closed": "휴무",
+    "sendMessage": "메시지 보내기",
+    "success": "메시지가 성공적으로 전송되었습니다!",
+    "error": "메시지 전송에 실패했습니다. 다시 시도해 주세요.",
+    "sending": "전송 중..."
+  },
+  "blogPage": {
+    "title": "블로그",
+    "heading": "마케팅 인사이트",
+    "subtitle": "Sarasota 비즈니스 성장을 위한 실전 전략",
+    "ctaTitle": "더 많은 마케팅 인사이트가 필요하신가요?",
+    "ctaText": "Sarasota 비즈니스를 위한 맞춤 성장 전략을 받아보세요.",
+    "article": {
+      "title": "사라소타 소규모 비즈니스가 고객을 얻는 방법",
+      "subtitle": "(한 달에 $5K를 낭비하지 않고)",
+      "excerpt": "훌륭한 서비스를 가지고 있어도 아무도 모른다면 의미가 없습니다. 광고에 돈을 썼지만 결과가 없고, SNS를 했지만 문의가 늘지 않았다면 이 글이 도움이 됩니다.",
+      "date": "2024년 4월",
+      "readTime": "8분 읽기",
+      "category": "마케팅 전략"
+    }
+  },
+  "blogArticle": {
+    "title": "사라소타 소규모 비즈니스가 고객을 얻는 방법",
+    "subtitle": "(한 달에 $5K를 낭비하지 않고)",
+    "meta": "2024년 4월 게시 • 8분 읽기",
+    "introTitle": "진짜 문제",
+    "introP1": "좋은 서비스를 가지고 있어도 아무도 모르면 고객은 오지 않습니다. 광고에 돈을 써도 성과가 없고, 누군가를 고용했지만 결과가 없었다면 그건 흔한 일입니다.",
+    "introP2": "대부분의 소규모 비즈니스가 놓치는 사실은 고객을 얻는 것 자체보다, 이를 수익성 있고 예측 가능하게 만드는 것이 더 중요하다는 점입니다.",
+    "introP3": "이 가이드는 Sarasota에서 실제로 고객을 얻는 방법을 보여줍니다.",
+    "sections": [
+      {
+        "title": "보이지 않으면 선택받을 수 없습니다",
+        "content": "먼저 고객이 당신을 찾을 수 있어야 합니다.\n\n• Google 비즈니스 프로필은 필수입니다. 실제 사진, 운영 시간, 서비스 지역, 리뷰를 채워야 합니다.\n\n• 결과: 지역 검색 고객이 경쟁사 대신 당신을 발견할 확률이 올라갑니다."
+      },
+      {
+        "title": "모든 사람에게 말하지 마세요",
+        "content": "가장 흔한 실수는 모두를 고객으로 생각하는 것입니다.\n\n스스로에게 물어보세요:\n• 실제로 누가 구매하는가?\n• 그들의 가장 큰 고민은 무엇인가?\n• 온라인에서 어디에 있는가?"
+      },
+      {
+        "title": "광고는 제대로 하면 효과가 있습니다",
+        "content": "광고가 실패하는 이유는 명확합니다.\n• 예산만 정하고 방치함\n• 타겟이 너무 넓거나 너무 좁음\n• 제안이 불분명함\n• 데이터 기반 최적화를 하지 않음\n\n올바른 방식은 테스트, 타겟팅, 명확한 오퍼, 지속적 최적화입니다."
+      },
+      {
+        "title": "콘텐츠는 신뢰를 만들고 광고는 속도를 만듭니다",
+        "content": "광고는 오늘 보게 만들고, 콘텐츠는 내일 다시 오게 만듭니다.\n\n정기적인 포스팅, 비하인드 스토리, 후기, 전문성을 보여주는 교육형 콘텐츠가 필요합니다."
+      },
+      {
+        "title": "측정하지 않으면 개선할 수 없습니다",
+        "content": "• 고객은 어디서 오는가?\n• 고객 1명을 얻는 비용은 얼마인가?\n• 평생 가치(LTV)는 얼마인가?\n\nGoogle Analytics, CRM, UTM을 활용해 무엇이 효과적인지 파악해야 합니다."
+      }
+    ],
+    "advantageTitle": "진짜 경쟁 우위는 꾸준함입니다",
+    "advantageP1": "경쟁사는 세 번 올리고 멈춥니다. 당신은 90일 동안 꾸준히 합니다.",
+    "advantageP2": "경쟁사는 전략 없이 돈을 씁니다. 당신은 체계적으로 운영합니다.",
+    "advantageP3": "경쟁사는 문의 답변이 느립니다. 당신은 빠르게 대응합니다.",
+    "advantageQuote": "꾸준함이 없는 재능보다 꾸준한 실행이 더 강합니다.",
+    "timelineTitle": "실행 타임라인",
+    "timeline": [
+      { "month": "1개월차", "item": "설정 및 전략 수립" },
+      { "month": "2개월차", "item": "첫 리드와 문의 발생" },
+      { "month": "3개월차", "item": "성과 최적화 및 확장" },
+      { "month": "6개월차", "item": "예측 가능한 고객 흐름 구축" }
+    ],
+    "bottomLineTitle": "핵심 정리",
+    "bottomLineIntro": "Sarasota에서 고객을 얻는 것은 미스터리가 아닙니다. 핵심은 다음과 같습니다:",
+    "bottomLineItems": [
+      "고객이 찾는 곳에서 보이기",
+      "이상적인 고객에게 정확히 말하기",
+      "광고로 속도, 콘텐츠로 신뢰 만들기",
+      "꾸준한 실행",
+      "측정과 최적화"
+    ],
+    "bottomLineOutro": "이 과정을 제대로 하는 비즈니스는 많지 않습니다. 그래서 이것이 바로 기회입니다.",
+    "ctaTitle": "이제 감으로 하지 말고 실제 고객을 확보해보세요",
+    "ctaText": "비즈니스에 맞는 예측 가능한 고객 획득 시스템을 함께 만듭니다."
+  },
+  "caseStudiesPage": {
+    "title": "케이스 스터디",
+    "heading": "마케팅 케이스 스터디 | 실제 고객 성과",
+    "subtitle": "실제 비즈니스의 실제 결과",
+    "caseTitle": "Salsa Fresca Restaurant & Bar",
+    "caseLocation": "사라소타 다운타운",
+    "challengeTitle": "문제 상황",
+    "challengeText": "2024년 1월 오픈 이후 Salsa Fresca는 좋은 위치에도 불구하고 고객 유입이 약했습니다. 비효율적인 Google Ads와 부족한 소셜 존재감이 문제였습니다.",
+    "strategyTitle": "우리의 전략",
+    "strategyWeek1Title": "1-2주차: 진단 및 전략 수립",
+    "strategyWeek1Text": "• 경쟁 키워드 분석\n• Facebook/Instagram 콘텐츠 캘린더 구축\n• 고의도 키워드 중심으로 Google Ads 재구성",
+    "strategyWeek2Title": "3-4주차: 실행",
+    "strategyWeek2Text": "• Sarasota 지역 타겟 Meta Ads 런칭\n• 첫 TikTok 영상 게시\n• Google 비즈니스 프로필 최적화",
+    "resultsTitle": "30일 결과",
+    "results": [
+      "주간 고객 수 (15 → 68)",
+      "월 매출 ($12K → $34K)",
+      "Google Ads ROI (20%에서 상승)",
+      "고객당 비용 ($200 → $45)"
+    ],
+    "testimonial": "우리는 무엇을 해야 할지 몰랐습니다. 그들은 광고를 낭비가 아닌 고객 유입 시스템으로 바꿔줬습니다.",
+    "provenTitle": "다양한 업종에서 검증된 성과",
+    "provenLabels": [
+      "90일 평균 고객 성장률",
+      "고객 획득 비용 절감",
+      "6개월 후 고객 유지율",
+      "클라이언트 매출 기여 총액",
+      "성공적으로 런칭한 캠페인 수",
+      "평균 고객 만족도"
+    ],
+    "provenText": "이 숫자는 단순한 통계가 아니라 Sarasota와 Florida 지역의 실제 비즈니스 성과입니다.",
+    "ctaTitle": "이런 결과를 원하시나요?"
+  },
+  "seoContent": {
+    "homepage": "Sarasota에서 소규모 비즈니스를 운영하며 고객 유입이 들쭉날쭉하신가요? 플로리다의 경쟁 시장에서는 좋은 서비스만으로는 부족하며, 실제로 성과를 만드는 마케팅 시스템이 필요합니다.\n\nTeam Pulse Marketing은 Sarasota 지역 비즈니스를 위해 리드를 확보하고 고객으로 전환시키는 마케팅 에이전시입니다. 광고, 콘텐츠, 데이터 분석을 결합해 예측 가능한 성장 결과를 만듭니다.\n\n우리의 서비스는 리드 생성 캠페인, Google/Facebook/Instagram 광고 운영, 전문 콘텐츠 제작, 문의 전환 중심 웹사이트 최적화, 성과 데이터 기반 지속 개선을 포함합니다.\n\n매달 불규칙한 고객 유입에서 벗어나고 싶다면, 무료 전략 상담을 예약하고 Sarasota 비즈니스를 위한 성장 로드맵을 받아보세요."
+  }
+}

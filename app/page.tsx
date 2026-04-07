@@ -103,7 +103,7 @@ export default function HomePage() {
               href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-6 py-3 text-sm font-semibold text-black transition hover:scale-[1.02]"
             >
-              Get Your First Clients in 14 Days
+              {t('buttons.heroPrimary')}
               <ArrowRight className="h-4 w-4" />
             </Link>
 
@@ -146,23 +146,23 @@ export default function HomePage() {
             <div className="mb-5 flex items-center justify-between">
               <div>
                 <div className="text-xs uppercase tracking-[0.35em] text-pink-200/70">
-                  Featured
+                  {t('features.badge')}
                 </div>
                 <div className="mt-1 text-2xl font-semibold">
-                  Brand Experience
+                  {t('features.title')}
                 </div>
               </div>
               <div className="rounded-full border border-pink-200/20 px-3 py-1 text-xs text-pink-100/80">
-                Team Pulse Marketing Style
+                {t('features.styleTag')}
               </div>
             </div>
 
             <div className="rounded-[1.5rem] border border-white/10 bg-gradient-to-br from-[#15111a] via-[#120b14] to-[#201019] p-5">
               <div className="mb-4 flex items-start justify-between">
                 <div>
-                  <div className="text-sm text-white/50">Agency concept</div>
+                  <div className="text-sm text-white/50">{t('features.conceptLabel')}</div>
                   <div className="text-xl font-medium">
-                    Luxury + soft pink contrast
+                    {t('features.conceptValue')}
                   </div>
                 </div>
                 <div className="text-3xl">🌸</div>
@@ -170,21 +170,21 @@ export default function HomePage() {
 
               <div className="grid gap-3">
                 <div className="rounded-2xl bg-white/5 p-4">
-                  <div className="text-sm text-white/50">Offer</div>
+                  <div className="text-sm text-white/50">{t('features.offerLabel')}</div>
                   <div className="mt-1 font-medium">
-                    Websites, ads, content, reels, strategy
+                    {t('features.offerValue')}
                   </div>
                 </div>
                 <div className="rounded-2xl bg-white/5 p-4">
-                  <div className="text-sm text-white/50">Client feeling</div>
+                  <div className="text-sm text-white/50">{t('features.feelingLabel')}</div>
                   <div className="mt-1 font-medium">
-                    Premium, modern, memorable
+                    {t('features.feelingValue')}
                   </div>
                 </div>
                 <div className="rounded-2xl bg-white/5 p-4">
-                  <div className="text-sm text-white/50">Goal</div>
+                  <div className="text-sm text-white/50">{t('features.goalLabel')}</div>
                   <div className="mt-1 font-medium">
-                    More trust, more clicks, more leads
+                    {t('features.goalValue')}
                   </div>
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function HomePage() {
           className="prose prose-lg prose-invert max-w-none"
         >
           <h1 className="text-4xl font-semibold mb-8 text-center">
-            Marketing Agency in Sarasota | Lead Generation & Ads
+            {t('hero.seoHeading')}
           </h1>
           <div className="text-white/80 leading-relaxed space-y-6">
             {t('seoContent.homepage').split('\n\n').map((paragraph, index) => (
@@ -216,7 +216,7 @@ export default function HomePage() {
               href="/contact"
               className="inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-8 py-4 text-lg font-semibold text-black transition hover:scale-[1.02]"
             >
-              Book Your Free Strategy Call
+              {t('buttons.bookCall')}
               <ArrowRight className="h-5 w-5" />
             </Link>
           </div>
@@ -232,16 +232,15 @@ export default function HomePage() {
                   {t('header.teamPulse')}
                 </span>
                 <span className="text-xl font-semibold tracking-wide">
-                  Team Pulse Marketing
+                  {t('header.agency')}
                 </span>
               </div>
               <p className="text-white/60 max-w-md">
-                Premium marketing agency creating exceptional digital experiences
-                that drive real business results.
+                {t('footer.description')}
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Navigation</h4>
+              <h4 className="font-semibold mb-4">{t('footer.navigation')}</h4>
               <div className="space-y-2">
                 <Link href="/services" className="block text-white/60 hover:text-white transition">
                   {t('header.services')}
@@ -250,24 +249,24 @@ export default function HomePage() {
                   {t('header.about')}
                 </Link>
                 <Link href="/blog" className="block text-white/60 hover:text-white transition">
-                  Blog
+                  {t('footer.blog')}
                 </Link>
                 <Link href="/case-studies" className="block text-white/60 hover:text-white transition">
-                  Case Studies
+                  {t('footer.caseStudies')}
                 </Link>
               </div>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Contact</h4>
+              <h4 className="font-semibold mb-4">{t('footer.contact')}</h4>
               <div className="space-y-2 text-white/60">
-                <div>Sarasota, Florida</div>
-                <div>@theteampulse</div>
-                <div>teampulsemarketing1@gmail.com</div>
+                <div>{t('footer.location')}</div>
+                <div>{t('footer.telegram')}</div>
+                <div>{t('footer.email')}</div>
               </div>
             </div>
           </div>
           <div className="border-t border-white/10 mt-8 pt-8 text-center text-white/40">
-            <p>&copy; 2024 Team Pulse Marketing Agency. All rights reserved.</p>
+            <p>{t('footer.copyright')}</p>
           </div>
         </div>
       </footer>

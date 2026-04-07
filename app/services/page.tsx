@@ -10,30 +10,30 @@ export default function ServicesPage() {
 
   const services = [
     {
-      title: "Paid Advertising (Facebook, Instagram, Google)",
-      desc: "We build and manage high-converting ad campaigns that target specific customers ready to buy. Daily optimization, predictable ROI.",
+      title: t('servicesPage.cards.0.title'),
+      desc: t('servicesPage.cards.0.desc'),
       results: [
-        "3-5x average ROI within 60 days",
-        "Predictable customer flow",
-        "Zero wasted ad spend"
+        t('servicesPage.cards.0.results.0'),
+        t('servicesPage.cards.0.results.1'),
+        t('servicesPage.cards.0.results.2')
       ]
     },
     {
-      title: "Content Creation & Social Strategy",
-      desc: "Strategic content calendar built around your ideal customer. Consistent posts, engaged followers, brand authority.",
+      title: t('servicesPage.cards.1.title'),
+      desc: t('servicesPage.cards.1.desc'),
       results: [
-        "Brand authority building",
-        "Consistent audience growth",
-        "Followers that actually convert"
+        t('servicesPage.cards.1.results.0'),
+        t('servicesPage.cards.1.results.1'),
+        t('servicesPage.cards.1.results.2')
       ]
     },
     {
-      title: "Lead Generation Systems",
-      desc: "Complete funnels from ad → landing page → CRM → sales call. We track every step and optimize for conversions.",
+      title: t('servicesPage.cards.2.title'),
+      desc: t('servicesPage.cards.2.desc'),
       results: [
-        "Custom landing pages",
-        "Lead automation",
-        "Scalable acquisition system"
+        t('servicesPage.cards.2.results.0'),
+        t('servicesPage.cards.2.results.1'),
+        t('servicesPage.cards.2.results.2')
       ]
     },
   ];
@@ -59,7 +59,7 @@ export default function ServicesPage() {
 
           <nav className="hidden items-center gap-8 text-sm text-white/70 md:flex">
             <Link href="/" className="transition hover:text-white">
-              Home
+              {t('header.home')}
             </Link>
             <Link href="/services" className="transition hover:text-white">
               {t('header.services')}
@@ -93,7 +93,7 @@ export default function ServicesPage() {
             className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-pink-200/20 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-pink-100/80"
           >
             <BadgeCheck className="h-4 w-4" />
-            Our Expertise
+            {t('servicesPage.badge')}
           </motion.div>
 
           <motion.h1
@@ -154,7 +154,7 @@ export default function ServicesPage() {
             href="/contact"
             className="inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-8 py-4 text-lg font-semibold text-black transition hover:scale-[1.02] hover:shadow-lg hover:shadow-pink-500/25"
           >
-            Book Your Free Strategy Call
+            {t('buttons.bookCall')}
             <ArrowLeft className="h-5 w-5 rotate-180" />
           </Link>
         </motion.div>
@@ -165,13 +165,13 @@ export default function ServicesPage() {
           transition={{ duration: 0.7, delay: 0.6 }}
           className="mt-20 rounded-3xl border border-white/10 bg-gradient-to-br from-white/6 to-white/[0.03] p-8 text-center backdrop-blur-sm lg:p-12"
         >
-          <h3 className="text-2xl font-semibold">See Real Results</h3>
-          <p className="mt-4 text-white/70">Check out how we helped Salsa Fresca go from 15 to 68 customers per week in 30 days.</p>
+          <h3 className="text-2xl font-semibold">{t('servicesPage.seeResults')}</h3>
+          <p className="mt-4 text-white/70">{t('servicesPage.resultsText')}</p>
           <Link
             href="/case-studies"
             className="mt-6 inline-flex items-center gap-2 text-pink-200 transition hover:text-pink-100"
           >
-            View Our Case Study →
+            {t('buttons.viewCaseStudy')}
           </Link>
         </motion.div>
       </section>

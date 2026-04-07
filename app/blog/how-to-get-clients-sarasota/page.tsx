@@ -10,24 +10,24 @@ export default function BlogPost() {
 
   const sections = [
     {
-      title: "Stop Being Invisible: Claim Your Local Presence",
-      content: "First step? Make sure you exist to customers looking for you.\n\n• Google Business Profile: This is non-negotiable. 80% of 'near me' searches happen on Google. Your profile should have: real photos, hours, service area (Sarasota + surrounding), and most importantly—reviews.\n\n• Expected result: 20-40% of local searchers will find you instead of your competitor"
+      title: t('blogArticle.sections.0.title'),
+      content: t('blogArticle.sections.0.content')
     },
     {
-      title: "Pick Your Customer Avatar (Stop Marketing to Everyone)",
-      content: "This is where most businesses fail. They try to appeal to everyone and speak to no one.\n\nAsk yourself:\n• Who actually buys from you?\n• What's their biggest pain?\n• Where do they hang out online?\n\nExample: A luxury salon in Sarasota shouldn't target 18-year-olds—target women 35-60 with disposable income, interested in luxury wellness."
+      title: t('blogArticle.sections.1.title'),
+      content: t('blogArticle.sections.1.content')
     },
     {
-      title: "Paid Ads Work (If Done Right)",
-      content: "Most small business owners fail at ads because they:\n• Set a budget and just 'hope'\n• Target too broad or too narrow\n• Don't have a clear offer\n• Never optimize based on results\n\nThe right way:\n• Start with $500-$1K budget (test)\n• Target hyper-specific audience (location + interests + behaviors)\n• Have ONE clear offer ('Free consultation,' 'Buy now,' 'Book appointment')\n• Check results daily and adjust\n• Scale what works"
+      title: t('blogArticle.sections.2.title'),
+      content: t('blogArticle.sections.2.content')
     },
     {
-      title: "Content Builds Authority (Ads Generate Urgency)",
-      content: "Ads get people to look at you today. Content builds trust so they come back tomorrow.\n\nYou don't need viral videos. You need:\n• Regular posts on Instagram/Facebook showing your work\n• Behind-the-scenes content (people buy from people, not faceless companies)\n• Local partnerships and testimonials\n• Educational content that positions you as an expert"
+      title: t('blogArticle.sections.3.title'),
+      content: t('blogArticle.sections.3.content')
     },
     {
-      title: "Track Everything (If You Can't Measure It, You Can't Improve It)",
-      content: "• Where are your customers coming from? (Google? Instagram? Referral?)\n• How much did that customer cost you?\n• What's their lifetime value?\n\nUse: Google Analytics, CRM, UTM codes on ads.\n\nThis data is how you know what's working and what's wasteful."
+      title: t('blogArticle.sections.4.title'),
+      content: t('blogArticle.sections.4.content')
     }
   ]
 
@@ -44,13 +44,13 @@ export default function BlogPost() {
             <Link href="/" className="text-xs uppercase tracking-[0.45em] text-pink-200/70 transition hover:text-pink-200">
               {t('header.teamPulse')}
             </Link>
-            <span className="text-xl font-semibold tracking-wide">Blog</span>
+            <span className="text-xl font-semibold tracking-wide">{t('blogPage.title')}</span>
           </div>
           <Link
             href="/"
             className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
           >
-            Back Home
+            {t('buttons.backHome')}
           </Link>
         </div>
       </header>
@@ -61,9 +61,9 @@ export default function BlogPost() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <h1 className="text-5xl font-semibold md:text-6xl">How to Get Clients for a Small Business in Sarasota</h1>
-          <p className="mt-4 text-lg text-white/60">(Without Wasting $5K/Month)</p>
-          <p className="mt-6 text-white/70">Posted on April 2024 • 8 min read</p>
+          <h1 className="text-5xl font-semibold md:text-6xl">{t('blogArticle.title')}</h1>
+          <p className="mt-4 text-lg text-white/60">{t('blogArticle.subtitle')}</p>
+          <p className="mt-6 text-white/70">{t('blogArticle.meta')}</p>
         </motion.div>
 
         <motion.div
@@ -73,14 +73,14 @@ export default function BlogPost() {
           className="mt-12 space-y-12"
         >
           <div>
-            <h2 className="text-3xl font-semibold">The Real Problem</h2>
+            <h2 className="text-3xl font-semibold">{t('blogArticle.introTitle')}</h2>
             <p className="mt-4 leading-7 text-white/70">
-              You&rsquo;ve got a great service. But nobody knows about it. You&rsquo;ve tried &ldquo;being on Facebook,&rdquo; spent money on ads that went nowhere, or hired someone who didn&rsquo;t deliver. Meanwhile, your competitors seem to have an endless stream of clients.
+              {t('blogArticle.introP1')}
             </p>
             <p className="mt-4 leading-7 text-white/70">
-              Here&rsquo;s what most small businesses don&rsquo;t realize: <strong>getting clients isn&rsquo;t hard&mdash;getting them profitably and predictably is.</strong> If you&rsquo;re a small business owner in Sarasota looking to get clients through effective marketing, this guide will show you exactly how to implement small business marketing Florida strategies that actually work.
+              {t('blogArticle.introP2')}
             </p>
-            <p className="mt-4 leading-7 text-white/70">This guide shows you exactly how to get clients Sarasota businesses need.</p>
+            <p className="mt-4 leading-7 text-white/70">{t('blogArticle.introP3')}</p>
           </div>
 
           {sections.map((section, index) => (
@@ -91,27 +91,27 @@ export default function BlogPost() {
           ))}
 
           <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/6 to-white/[0.03] p-8">
-            <h2 className="text-2xl font-semibold">The Competitive Advantage: Consistency</h2>
+            <h2 className="text-2xl font-semibold">{t('blogArticle.advantageTitle')}</h2>
             <p className="mt-4 leading-7 text-white/70">
-              Your competitor will post 3 times then quit. You post consistently for 90 days while they don&rsquo;t.
+              {t('blogArticle.advantageP1')}
             </p>
             <p className="mt-4 leading-7 text-white/70">
-              Your competitor will spend $2K on ads with no strategy. You spend $500 with a clear system.
+              {t('blogArticle.advantageP2')}
             </p>
             <p className="mt-4 leading-7 text-white/70">
-              Your competitor will answer inquiry emails on no schedule. You respond within 2 hours.
+              {t('blogArticle.advantageP3')}
             </p>
-            <p className="mt-6 font-semibold text-pink-200">Consistency beats talent when talent isn&rsquo;t consistent.</p>
+            <p className="mt-6 font-semibold text-pink-200">{t('blogArticle.advantageQuote')}</p>
           </div>
 
           <div>
-            <h2 className="text-3xl font-semibold">The Timeline</h2>
+            <h2 className="text-3xl font-semibold">{t('blogArticle.timelineTitle')}</h2>
             <div className="mt-6 space-y-4">
               {[
-                { month: "Month 1", item: "Setup + strategy" },
-                { month: "Month 2", item: "First results (leads, inquiries)" },
-                { month: "Month 3", item: "Optimization (scaling what works)" },
-                { month: "Month 6", item: "Predictable customer flow" }
+                { month: t('blogArticle.timeline.0.month'), item: t('blogArticle.timeline.0.item') },
+                { month: t('blogArticle.timeline.1.month'), item: t('blogArticle.timeline.1.item') },
+                { month: t('blogArticle.timeline.2.month'), item: t('blogArticle.timeline.2.item') },
+                { month: t('blogArticle.timeline.3.month'), item: t('blogArticle.timeline.3.item') }
               ].map((entry, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <CheckCircle className="mt-1 h-6 w-6 flex-shrink-0 text-pink-200" />
@@ -125,19 +125,19 @@ export default function BlogPost() {
           </div>
 
           <div className="rounded-3xl border border-pink-200/20 bg-pink-500/10 p-8">
-            <h2 className="text-2xl font-semibold">The Bottom Line</h2>
+            <h2 className="text-2xl font-semibold">{t('blogArticle.bottomLineTitle')}</h2>
             <p className="mt-4 leading-7 text-white/70">
-              Getting clients in Sarasota isn&rsquo;t a mystery. It&rsquo;s:
+              {t('blogArticle.bottomLineIntro')}
             </p>
             <div className="mt-4 space-y-2 text-white/70">
-              <p>1. Being visible where customers search</p>
-              <p>2. Speaking directly to your ideal customer</p>
-              <p>3. Paid ads for speed + organic for trust</p>
-              <p>4. Consistent execution</p>
-              <p>5. Tracking and optimizing</p>
+              <p>1. {t('blogArticle.bottomLineItems.0')}</p>
+              <p>2. {t('blogArticle.bottomLineItems.1')}</p>
+              <p>3. {t('blogArticle.bottomLineItems.2')}</p>
+              <p>4. {t('blogArticle.bottomLineItems.3')}</p>
+              <p>5. {t('blogArticle.bottomLineItems.4')}</p>
             </div>
             <p className="mt-6 leading-7 text-white/70">
-              Most businesses either don&rsquo;t do this at all, or they do it poorly. That&rsquo;s your opportunity. When you implement these small business marketing Florida strategies consistently, you&rsquo;ll start to see real results in getting clients Sarasota businesses depend on for growth.
+              {t('blogArticle.bottomLineOutro')}
             </p>
           </div>
         </motion.div>
@@ -148,13 +148,13 @@ export default function BlogPost() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mt-16 rounded-3xl border border-white/10 bg-gradient-to-br from-white/6 to-white/[0.03] p-8 text-center backdrop-blur-sm"
         >
-          <h3 className="text-2xl font-semibold">Ready to stop guessing and start getting actual clients?</h3>
-          <p className="mt-4 text-white/70">Let&rsquo;s build a predictable client acquisition system for your business.</p>
+          <h3 className="text-2xl font-semibold">{t('blogArticle.ctaTitle')}</h3>
+          <p className="mt-4 text-white/70">{t('blogArticle.ctaText')}</p>
           <Link
             href="/contact"
             className="mt-8 inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-8 py-4 text-lg font-semibold text-black transition hover:scale-[1.02]"
           >
-            Book Your Free Strategy Call
+            {t('buttons.bookCall')}
             <ArrowRight className="h-5 w-5" />
           </Link>
         </motion.div>

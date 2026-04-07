@@ -18,27 +18,27 @@ export default function ProcessPage() {
   const detailedSteps = [
     {
       number: "01",
-      title: "Discovery & Analysis",
-      description: "We start by understanding your business, goals, target audience, and current challenges. This phase includes market research and competitor analysis.",
-      duration: "1-2 weeks"
+      title: t('processPage.stepTitles.0'),
+      description: t('processPage.stepDescriptions.0'),
+      duration: t('processPage.durations.0')
     },
     {
       number: "02",
-      title: "Strategy & Planning",
-      description: "Based on our findings, we develop a comprehensive strategy and create detailed project plans with timelines, milestones, and deliverables.",
-      duration: "1 week"
+      title: t('processPage.stepTitles.1'),
+      description: t('processPage.stepDescriptions.1'),
+      duration: t('processPage.durations.1')
     },
     {
       number: "03",
-      title: "Design & Development",
-      description: "Our creative team brings the strategy to life through design concepts, content creation, and technical implementation.",
-      duration: "3-6 weeks"
+      title: t('processPage.stepTitles.2'),
+      description: t('processPage.stepDescriptions.2'),
+      duration: t('processPage.durations.2')
     },
     {
       number: "04",
-      title: "Launch & Optimization",
-      description: "We launch your project and continuously monitor performance, making data-driven optimizations to maximize results.",
-      duration: "Ongoing"
+      title: t('processPage.stepTitles.3'),
+      description: t('processPage.stepDescriptions.3'),
+      duration: t('processPage.durations.3')
     }
   ];
 
@@ -63,7 +63,7 @@ export default function ProcessPage() {
 
           <nav className="hidden items-center gap-8 text-sm text-white/70 md:flex">
             <Link href="/" className="transition hover:text-white">
-              Home
+              {t('header.home')}
             </Link>
             <Link href="/services" className="transition hover:text-white">
               {t('header.services')}
@@ -97,7 +97,7 @@ export default function ProcessPage() {
             className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-pink-200/20 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-pink-100/80"
           >
             <CheckCircle className="h-4 w-4" />
-            Our Process
+            {t('processPage.badge')}
           </motion.div>
 
           <motion.h1
@@ -115,7 +115,7 @@ export default function ProcessPage() {
             transition={{ duration: 0.7, delay: 0.12 }}
             className="mx-auto max-w-2xl text-lg leading-8 text-white/70"
           >
-            A streamlined approach that delivers exceptional results through collaboration and expertise.
+            {t('processPage.subtitle')}
           </motion.p>
         </div>
 
@@ -175,7 +175,7 @@ export default function ProcessPage() {
             href="/contact"
             className="inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-8 py-4 text-lg font-semibold text-black transition hover:scale-[1.02] hover:shadow-lg hover:shadow-pink-500/25"
           >
-            Start Your Project
+            {t('buttons.startProject')}
             <ArrowLeft className="h-5 w-5 rotate-180" />
           </Link>
         </motion.div>

@@ -11,12 +11,12 @@ export default function BlogPage() {
   const articles = [
     {
       slug: 'how-to-get-clients-sarasota',
-      title: 'How to Get Clients for a Small Business in Sarasota',
-      subtitle: '(Without Wasting $5K/Month)',
-      excerpt: 'You\'ve got a great service. But nobody knows about it. You\'ve tried "being on Facebook," spent money on ads that went nowhere, or hired someone who didn\'t deliver. Meanwhile, your competitors seem to have an endless stream of clients.',
-      date: 'April 2024',
-      readTime: '8 min read',
-      category: 'Marketing Strategy'
+      title: t('blogPage.article.title'),
+      subtitle: t('blogPage.article.subtitle'),
+      excerpt: t('blogPage.article.excerpt'),
+      date: t('blogPage.article.date'),
+      readTime: t('blogPage.article.readTime'),
+      category: t('blogPage.article.category')
     }
   ]
 
@@ -33,13 +33,13 @@ export default function BlogPage() {
             <Link href="/" className="text-xs uppercase tracking-[0.45em] text-pink-200/70 transition hover:text-pink-200">
               {t('header.teamPulse')}
             </Link>
-            <span className="text-xl font-semibold tracking-wide">Blog</span>
+            <span className="text-xl font-semibold tracking-wide">{t('blogPage.title')}</span>
           </div>
           <Link
             href="/"
             className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
           >
-            Back Home
+            {t('buttons.backHome')}
           </Link>
         </div>
       </header>
@@ -51,9 +51,9 @@ export default function BlogPage() {
           transition={{ duration: 0.7 }}
           className="text-center"
         >
-          <h1 className="text-5xl font-semibold md:text-6xl">Marketing Insights</h1>
+          <h1 className="text-5xl font-semibold md:text-6xl">{t('blogPage.heading')}</h1>
           <p className="mt-6 text-xl text-white/60">
-            Practical strategies for growing your Sarasota business
+            {t('blogPage.subtitle')}
           </p>
         </motion.div>
 
@@ -107,7 +107,7 @@ export default function BlogPage() {
                 </div>
 
                 <div className="mt-6 flex items-center gap-2 text-pink-200 group-hover:gap-3 transition-all">
-                  <span className="text-sm font-medium">Read Article</span>
+                  <span className="text-sm font-medium">{t('buttons.readArticle')}</span>
                   <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
                 </div>
               </motion.div>
@@ -121,15 +121,15 @@ export default function BlogPage() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="mt-20 rounded-3xl border border-pink-200/20 bg-pink-500/10 p-8 text-center backdrop-blur-sm"
         >
-          <h3 className="text-2xl font-semibold">Want more marketing insights?</h3>
+          <h3 className="text-2xl font-semibold">{t('blogPage.ctaTitle')}</h3>
           <p className="mt-4 text-white/70">
-            Get personalized strategies for your Sarasota business growth.
+            {t('blogPage.ctaText')}
           </p>
           <Link
             href="/contact"
             className="mt-8 inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-8 py-4 text-lg font-semibold text-black transition hover:scale-[1.02]"
           >
-            Book Your Free Strategy Call
+            {t('buttons.bookCall')}
             <ArrowRight className="h-5 w-5" />
           </Link>
         </motion.div>

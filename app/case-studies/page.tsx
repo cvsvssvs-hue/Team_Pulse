@@ -21,13 +21,13 @@ export default function CaseStudies() {
             <Link href="/" className="text-xs uppercase tracking-[0.45em] text-pink-200/70 transition hover:text-pink-200">
               {t('header.teamPulse')}
             </Link>
-            <span className="text-xl font-semibold tracking-wide">Case Studies</span>
+            <span className="text-xl font-semibold tracking-wide">{t('caseStudiesPage.title')}</span>
           </div>
           <Link
             href="/"
             className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
           >
-            Back Home
+            {t('buttons.backHome')}
           </Link>
         </div>
       </header>
@@ -39,8 +39,8 @@ export default function CaseStudies() {
           transition={{ duration: 0.7 }}
           className="mb-16 text-center"
         >
-          <h1 className="text-5xl font-semibold md:text-6xl">Marketing Case Studies | Real Client Results</h1>
-          <p className="mt-6 text-lg text-white/70">Real results from real businesses</p>
+          <h1 className="text-5xl font-semibold md:text-6xl">{t('caseStudiesPage.heading')}</h1>
+          <p className="mt-6 text-lg text-white/70">{t('caseStudiesPage.subtitle')}</p>
         </motion.div>
 
         <motion.div
@@ -52,65 +52,57 @@ export default function CaseStudies() {
           <div className="mb-8 flex items-center gap-4">
             <div className="text-5xl">🌮</div>
             <div>
-              <h2 className="text-3xl font-semibold">Salsa Fresca Restaurant & Bar</h2>
-              <p className="mt-2 text-white/60">Sarasota Downtown</p>
+              <h2 className="text-3xl font-semibold">{t('caseStudiesPage.caseTitle')}</h2>
+              <p className="mt-2 text-white/60">{t('caseStudiesPage.caseLocation')}</p>
             </div>
           </div>
 
           <div className="mb-8 border-b border-white/10 pb-8">
-            <h3 className="mb-4 text-xl font-semibold text-pink-200">The Challenge</h3>
+            <h3 className="mb-4 text-xl font-semibold text-pink-200">{t('caseStudiesPage.challengeTitle')}</h3>
             <p className="leading-7 text-white/70">
-              After opening in January 2024, Salsa Fresca was struggling to gain traction despite a prime downtown location. They were getting only ~15 customers per week with ineffective Google Ads spending ($3K/month with no strategy). No organic social presence. Competing directly against established chains with 10x the marketing budget.
+              {t('caseStudiesPage.challengeText')}
             </p>
           </div>
 
           <div className="mb-8 border-b border-white/10 pb-8">
-            <h3 className="mb-4 text-xl font-semibold text-pink-200">Our Strategy</h3>
+            <h3 className="mb-4 text-xl font-semibold text-pink-200">{t('caseStudiesPage.strategyTitle')}</h3>
             <div className="space-y-4">
               <div>
-                <h4 className="font-semibold">Week 1-2: Audit &amp; Strategy Sprint</h4>
-                <p className="mt-2 text-white/70">
-                  • Analyzed competitor keywords (local searches: &ldquo;authentic Mexican Sarasota,&rdquo; &ldquo;dinner Siesta Key&rdquo;)<br/>
-                  • Built Facebook/Instagram content calendar (3 posts/week: food, behind-scenes, local events)<br/>
-                  • Restructured Google Ads (cut waste, focused on high-intent keywords)
-                </p>
+                <h4 className="font-semibold">{t('caseStudiesPage.strategyWeek1Title')}</h4>
+                <p className="mt-2 whitespace-pre-line text-white/70">{t('caseStudiesPage.strategyWeek1Text')}</p>
               </div>
               <div>
-                <h4 className="font-semibold">Week 3-4: Execution</h4>
-                <p className="mt-2 text-white/70">
-                  • Launched targeted Meta Ads to Sarasota locals ($800/month, laser-focused)<br/>
-                  • Posted first TikTok videos (food prep, owner story)<br/>
-                  • Optimized Google Business Profile with local keywords
-                </p>
+                <h4 className="font-semibold">{t('caseStudiesPage.strategyWeek2Title')}</h4>
+                <p className="mt-2 whitespace-pre-line text-white/70">{t('caseStudiesPage.strategyWeek2Text')}</p>
               </div>
             </div>
           </div>
 
           <div className="mb-8">
-            <h3 className="mb-6 text-xl font-semibold text-pink-200">The Results (30 Days)</h3>
+            <h3 className="mb-6 text-xl font-semibold text-pink-200">{t('caseStudiesPage.resultsTitle')}</h3>
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               <div className="rounded-2xl border border-pink-200/20 bg-pink-500/10 p-6">
                 <div className="text-3xl font-bold text-pink-200">+353%</div>
-                <div className="mt-2 text-sm text-white/60">Customers/week (15 → 68)</div>
+                <div className="mt-2 text-sm text-white/60">{t('caseStudiesPage.results.0')}</div>
               </div>
               <div className="rounded-2xl border border-pink-200/20 bg-pink-500/10 p-6">
                 <div className="text-3xl font-bold text-pink-200">+183%</div>
-                <div className="mt-2 text-sm text-white/60">Monthly Revenue ($12K → $34K)</div>
+                <div className="mt-2 text-sm text-white/60">{t('caseStudiesPage.results.1')}</div>
               </div>
               <div className="rounded-2xl border border-pink-200/20 bg-pink-500/10 p-6">
                 <div className="text-3xl font-bold text-pink-200">180%</div>
-                <div className="mt-2 text-sm text-white/60">Google Ads ROI (was 20%)</div>
+                <div className="mt-2 text-sm text-white/60">{t('caseStudiesPage.results.2')}</div>
               </div>
               <div className="rounded-2xl border border-pink-200/20 bg-pink-500/10 p-6">
                 <div className="text-3xl font-bold text-pink-200">-77%</div>
-                <div className="mt-2 text-sm text-white/60">Cost per Customer ($200 → $45)</div>
+                <div className="mt-2 text-sm text-white/60">{t('caseStudiesPage.results.3')}</div>
               </div>
             </div>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6">
             <p className="italic text-white/80">
-              &ldquo;We didn&rsquo;t know what we were doing. They turned our ads from money-wasting into a customer machine. We&rsquo;re now fully booked Thursday-Saturday.&rdquo; – Owner, Salsa Fresca
+              &ldquo;{t('caseStudiesPage.testimonial')}&rdquo;
             </p>
           </div>
         </motion.div>
@@ -121,37 +113,35 @@ export default function CaseStudies() {
           transition={{ duration: 0.7, delay: 0.15 }}
           className="mt-16 rounded-3xl border border-white/10 bg-gradient-to-br from-white/6 to-white/[0.03] p-8 backdrop-blur-sm"
         >
-          <h2 className="mb-6 text-3xl font-semibold text-center">Proven Results Across Industries</h2>
+          <h2 className="mb-6 text-3xl font-semibold text-center">{t('caseStudiesPage.provenTitle')}</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="text-center">
               <div className="text-4xl font-bold text-pink-200 mb-2">353%</div>
-              <div className="text-white/70">Average customer growth in 90 days</div>
+              <div className="text-white/70">{t('caseStudiesPage.provenLabels.0')}</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-pink-200 mb-2">67%</div>
-              <div className="text-white/70">Reduction in customer acquisition cost</div>
+              <div className="text-white/70">{t('caseStudiesPage.provenLabels.1')}</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-pink-200 mb-2">94%</div>
-              <div className="text-white/70">Client retention rate after 6 months</div>
+              <div className="text-white/70">{t('caseStudiesPage.provenLabels.2')}</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-pink-200 mb-2">$2.8M</div>
-              <div className="text-white/70">Total revenue generated for clients</div>
+              <div className="text-white/70">{t('caseStudiesPage.provenLabels.3')}</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-pink-200 mb-2">50+</div>
-              <div className="text-white/70">Successful marketing campaigns launched</div>
+              <div className="text-white/70">{t('caseStudiesPage.provenLabels.4')}</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-pink-200 mb-2">4.9/5</div>
-              <div className="text-white/70">Average client satisfaction rating</div>
+              <div className="text-white/70">{t('caseStudiesPage.provenLabels.5')}</div>
             </div>
           </div>
           <p className="mt-8 text-center text-white/80 leading-relaxed">
-            These aren't just numbers—they're real businesses in Sarasota and Florida that went from struggling to thriving. 
-            From restaurants and service providers to retail shops and professional practices, our data-driven marketing 
-            strategies deliver consistent, measurable results that grow your bottom line.
+            {t('caseStudiesPage.provenText')}
           </p>
         </motion.div>
 
@@ -161,12 +151,12 @@ export default function CaseStudies() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mt-16 text-center"
         >
-          <h3 className="mb-6 text-2xl font-semibold">Ready for results like this?</h3>
+          <h3 className="mb-6 text-2xl font-semibold">{t('caseStudiesPage.ctaTitle')}</h3>
           <Link
             href="/contact"
             className="inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-8 py-4 text-lg font-semibold text-black transition hover:scale-[1.02]"
           >
-            Book Your Free Strategy Call
+            {t('buttons.bookCall')}
             <ArrowRight className="h-5 w-5" />
           </Link>
         </motion.div>

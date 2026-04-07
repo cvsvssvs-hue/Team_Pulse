@@ -29,7 +29,7 @@ export default function AboutPage() {
 
           <nav className="hidden items-center gap-8 text-sm text-white/70 md:flex">
             <Link href="/" className="transition hover:text-white">
-              Home
+              {t('header.home')}
             </Link>
             <Link href="/services" className="transition hover:text-white">
               {t('header.services')}
@@ -63,7 +63,7 @@ export default function AboutPage() {
             className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-pink-200/20 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-pink-100/80"
           >
             <Sparkles className="h-4 w-4" />
-            About Us
+            {t('aboutPage.badge')}
           </motion.div>
 
           <motion.h1
@@ -83,7 +83,7 @@ export default function AboutPage() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-white/6 to-white/[0.03] p-8"
           >
-            <h3 className="mb-6 text-2xl font-semibold">Why Choose Us?</h3>
+            <h3 className="mb-6 text-2xl font-semibold">{t('aboutPage.whyChooseUs')}</h3>
             <div className="space-y-4">
               <div className="rounded-2xl border border-white/10 bg-black/20 px-6 py-4 transition hover:bg-black/30">
                 {t('whyUs.0')}
@@ -103,20 +103,18 @@ export default function AboutPage() {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="rounded-[2rem] border border-white/10 bg-white/5 p-8"
           >
-            <h3 className="mb-6 text-2xl font-semibold">Our Mission</h3>
+            <h3 className="mb-6 text-2xl font-semibold">{t('aboutPage.mission')}</h3>
             <p className="leading-7 text-white/70">
-              We create exceptional digital experiences that drive real business results.
-              Our team combines creativity with strategic thinking to deliver solutions
-              that not only look beautiful but also perform exceptionally well.
+              {t('aboutPage.missionText')}
             </p>
             <div className="mt-6 grid grid-cols-2 gap-4">
               <div className="rounded-xl bg-gradient-to-br from-pink-500/10 to-rose-500/10 p-4 text-center">
                 <div className="text-2xl font-bold text-pink-200">500+</div>
-                <div className="text-sm text-white/60">Projects Completed</div>
+                <div className="text-sm text-white/60">{t('aboutPage.projectsCompleted')}</div>
               </div>
               <div className="rounded-xl bg-gradient-to-br from-fuchsia-500/10 to-purple-500/10 p-4 text-center">
                 <div className="text-2xl font-bold text-fuchsia-200">98%</div>
-                <div className="text-sm text-white/60">Client Satisfaction</div>
+                <div className="text-sm text-white/60">{t('aboutPage.clientSatisfaction')}</div>
               </div>
             </div>
           </motion.div>
@@ -143,13 +141,13 @@ export default function AboutPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-pink-200/25 bg-white/5 px-6 py-3 text-sm font-medium text-pink-100 transition hover:bg-white/10"
             >
-              <span>Telegram: {t('about.contacts.telegram')}</span>
+              <span>{t('aboutPage.telegramLabel')}: {t('about.contacts.telegram')}</span>
             </a>
             <a
               href="mailto:teampulsemarketing1@gmail.com"
               className="inline-flex items-center gap-2 rounded-full border border-pink-200/25 bg-white/5 px-6 py-3 text-sm font-medium text-pink-100 transition hover:bg-white/10"
             >
-              <span>Email: {t('about.contacts.email')}</span>
+              <span>{t('aboutPage.emailLabel')}: {t('about.contacts.email')}</span>
             </a>
           </motion.div>
         </section>
@@ -164,7 +162,7 @@ export default function AboutPage() {
             href="/contact"
             className="inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 px-8 py-4 text-lg font-semibold text-black transition hover:scale-[1.02] hover:shadow-lg hover:shadow-pink-500/25"
           >
-            Work With Us
+            {t('buttons.workWithUs')}
             <ArrowLeft className="h-5 w-5 rotate-180" />
           </Link>
         </motion.div>

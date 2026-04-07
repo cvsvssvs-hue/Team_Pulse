@@ -1,0 +1,285 @@
+{
+  "header": {
+    "teamPulse": "Team Pulse Marketing",
+    "agency": "Team Pulse Marketing",
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "process": "Process",
+    "contact": "Contact",
+    "startProject": "Start project"
+  },
+  "buttons": {
+    "bookCall": "Book Your Free Strategy Call",
+    "backHome": "Back Home",
+    "readArticle": "Read Article",
+    "workWithUs": "Work With Us",
+    "startProject": "Start Your Project",
+    "viewCaseStudy": "View Our Case Study →",
+    "send": "Send inquiry",
+    "heroPrimary": "Get Your First Clients in 14 Days"
+  },
+  "hero": {
+    "badge": "Premium • Elegant • High-converting",
+    "title": "We turn attention into brand growth and leads",
+    "subtitle": "Stylish marketing agency with premium presentation: websites, content, reels, ads, and brand packaging in luxury dark + elegant accents.",
+    "viewServices": "View services",
+    "seoHeading": "Marketing Agency in Sarasota | Lead Generation & Ads"
+  },
+  "stats": [
+    { "value": "24/7", "label": "online presence" },
+    { "value": "3x", "label": "stronger first impression" },
+    { "value": "100%", "label": "individual approach" }
+  ],
+  "features": {
+    "badge": "Featured",
+    "title": "Brand Experience",
+    "styleTag": "Team Pulse Marketing Style",
+    "conceptLabel": "Agency concept",
+    "conceptValue": "Luxury + soft pink contrast",
+    "offerLabel": "Offer",
+    "offerValue": "Websites, ads, content, reels, strategy",
+    "feelingLabel": "Client feeling",
+    "feelingValue": "Premium, modern, memorable",
+    "goalLabel": "Goal",
+    "goalValue": "More trust, more clicks, more leads"
+  },
+  "footer": {
+    "description": "Premium marketing agency creating exceptional digital experiences that drive real business results.",
+    "navigation": "Navigation",
+    "blog": "Blog",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "location": "Sarasota, Florida",
+    "telegram": "@theteampulse",
+    "email": "teampulsemarketing1@gmail.com",
+    "copyright": "© 2024 Team Pulse Marketing Agency. All rights reserved."
+  },
+  "services": {
+    "title": "What we do",
+    "subtitle": "Clean presentation, expensive visuals and clear structure that helps sell services and strengthen the brand."
+  },
+  "servicesPage": {
+    "badge": "Our Expertise",
+    "seeResults": "See Real Results",
+    "resultsText": "Check out how we helped Salsa Fresca go from 15 to 68 customers per week in 30 days.",
+    "cards": [
+      {
+        "title": "Paid Advertising (Facebook, Instagram, Google)",
+        "desc": "We build and manage high-converting ad campaigns that target specific customers ready to buy. Daily optimization, predictable ROI.",
+        "results": [
+          "3-5x average ROI within 60 days",
+          "Predictable customer flow",
+          "Zero wasted ad spend"
+        ]
+      },
+      {
+        "title": "Content Creation & Social Strategy",
+        "desc": "Strategic content calendar built around your ideal customer. Consistent posts, engaged followers, brand authority.",
+        "results": [
+          "Brand authority building",
+          "Consistent audience growth",
+          "Followers that actually convert"
+        ]
+      },
+      {
+        "title": "Lead Generation Systems",
+        "desc": "Complete funnels from ad → landing page → CRM → sales call. We track every step and optimize for conversions.",
+        "results": [
+          "Custom landing pages",
+          "Lead automation",
+          "Scalable acquisition system"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "Design that looks expensive",
+    "contactsTitle": "Contacts",
+    "contacts": {
+      "telegram": "@theteampulse",
+      "email": "teampulsemarketing1@gmail.com"
+    }
+  },
+  "whyUs": [
+    "Premium visual style from the first screen",
+    "Modern presentation without cheap template feeling",
+    "Focus on leads, trust and business growth"
+  ],
+  "aboutPage": {
+    "badge": "About Us",
+    "whyChooseUs": "Why Choose Us?",
+    "mission": "Our Mission",
+    "missionText": "We create exceptional digital experiences that drive real business results. Our team combines creativity with strategic thinking to deliver solutions that not only look beautiful but also perform exceptionally well.",
+    "projectsCompleted": "Projects Completed",
+    "clientSatisfaction": "Client Satisfaction",
+    "telegramLabel": "Telegram",
+    "emailLabel": "Email"
+  },
+  "process": {
+    "title": "How we work",
+    "steps": [
+      "We analyze your brand and niche",
+      "We gather a strong visual and offer",
+      "We launch the site, content and advertising",
+      "We optimize for leads and sales"
+    ]
+  },
+  "processPage": {
+    "badge": "Our Process",
+    "subtitle": "A streamlined approach that delivers exceptional results through collaboration and expertise.",
+    "stepTitles": [
+      "Discovery & Analysis",
+      "Strategy & Planning",
+      "Design & Development",
+      "Launch & Optimization"
+    ],
+    "stepDescriptions": [
+      "We start by understanding your business, goals, target audience, and current challenges. This phase includes market research and competitor analysis.",
+      "Based on our findings, we develop a comprehensive strategy and create detailed project plans with timelines, milestones, and deliverables.",
+      "Our creative team brings the strategy to life through design concepts, content creation, and technical implementation.",
+      "We launch your project and continuously monitor performance, making data-driven optimizations to maximize results."
+    ],
+    "durations": ["1-2 weeks", "1 week", "3-6 weeks", "Ongoing"]
+  },
+  "contact": {
+    "title": "Let's build a brand that will be remembered",
+    "subtitle": "Reach Team Pulse Marketing directly in Sarasota by phone, Telegram, WhatsApp, Instagram, email, or via portfolio.",
+    "form": {
+      "name": "Your name",
+      "brand": "Business / brand",
+      "contact": "Phone or email",
+      "message": "Tell us what you need",
+      "send": "Send inquiry"
+    }
+  },
+  "contactPage": {
+    "badge": "Get In Touch",
+    "contactInformation": "Contact Information",
+    "phone": "Phone",
+    "phoneValue": "+1 (941) 735-6655",
+    "telegram": "Telegram",
+    "telegramValue": "@theteampulse",
+    "whatsapp": "WhatsApp",
+    "whatsappValue": "+1 (941) 735-6655",
+    "instagram": "Instagram",
+    "instagramValue": "@the.team.pulse",
+    "reddit": "Reddit",
+    "redditValue": "u/Individual_Might3830",
+    "businessHours": "Business Hours",
+    "mondayFriday": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "sendMessage": "Send us a message",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again.",
+    "sending": "Sending..."
+  },
+  "blogPage": {
+    "title": "Blog",
+    "heading": "Marketing Insights",
+    "subtitle": "Practical strategies for growing your Sarasota business",
+    "ctaTitle": "Want more marketing insights?",
+    "ctaText": "Get personalized strategies for your Sarasota business growth.",
+    "article": {
+      "title": "How to Get Clients for a Small Business in Sarasota",
+      "subtitle": "(Without Wasting $5K/Month)",
+      "excerpt": "You've got a great service. But nobody knows about it. You've tried being on Facebook, spent money on ads that went nowhere, or hired someone who didn't deliver. Meanwhile, your competitors seem to have an endless stream of clients.",
+      "date": "April 2024",
+      "readTime": "8 min read",
+      "category": "Marketing Strategy"
+    }
+  },
+  "blogArticle": {
+    "title": "How to Get Clients for a Small Business in Sarasota",
+    "subtitle": "(Without Wasting $5K/Month)",
+    "meta": "Posted on April 2024 • 8 min read",
+    "introTitle": "The Real Problem",
+    "introP1": "You've got a great service. But nobody knows about it. You've tried being on Facebook, spent money on ads that went nowhere, or hired someone who didn't deliver. Meanwhile, your competitors seem to have an endless stream of clients.",
+    "introP2": "Here's what most small businesses don't realize: getting clients isn't hard—getting them profitably and predictably is. If you're a small business owner in Sarasota looking to get clients through effective marketing, this guide will show you exactly how to implement small business marketing Florida strategies that actually work.",
+    "introP3": "This guide shows you exactly how to get clients Sarasota businesses need.",
+    "sections": [
+      {
+        "title": "Stop Being Invisible: Claim Your Local Presence",
+        "content": "First step? Make sure you exist to customers looking for you.\n\n• Google Business Profile: This is non-negotiable. 80% of near me searches happen on Google. Your profile should have real photos, hours, service area, and most importantly—reviews.\n\n• Expected result: 20-40% of local searchers will find you instead of your competitor"
+      },
+      {
+        "title": "Pick Your Customer Avatar (Stop Marketing to Everyone)",
+        "content": "This is where most businesses fail. They try to appeal to everyone and speak to no one.\n\nAsk yourself:\n• Who actually buys from you?\n• What's their biggest pain?\n• Where do they hang out online?\n\nExample: A luxury salon in Sarasota shouldn't target 18-year-olds—target women 35-60 with disposable income, interested in luxury wellness."
+      },
+      {
+        "title": "Paid Ads Work (If Done Right)",
+        "content": "Most small business owners fail at ads because they:\n• Set a budget and just hope\n• Target too broad or too narrow\n• Don't have a clear offer\n• Never optimize based on results\n\nThe right way:\n• Start with $500-$1K budget (test)\n• Target hyper-specific audience (location + interests + behaviors)\n• Have one clear offer\n• Check results daily and adjust\n• Scale what works"
+      },
+      {
+        "title": "Content Builds Authority (Ads Generate Urgency)",
+        "content": "Ads get people to look at you today. Content builds trust so they come back tomorrow.\n\nYou don't need viral videos. You need:\n• Regular posts on Instagram/Facebook showing your work\n• Behind-the-scenes content\n• Local partnerships and testimonials\n• Educational content that positions you as an expert"
+      },
+      {
+        "title": "Track Everything (If You Can't Measure It, You Can't Improve It)",
+        "content": "• Where are your customers coming from?\n• How much did that customer cost you?\n• What's their lifetime value?\n\nUse: Google Analytics, CRM, UTM codes on ads.\n\nThis data is how you know what's working and what's wasteful."
+      }
+    ],
+    "advantageTitle": "The Competitive Advantage: Consistency",
+    "advantageP1": "Your competitor will post 3 times then quit. You post consistently for 90 days while they don't.",
+    "advantageP2": "Your competitor will spend $2K on ads with no strategy. You spend $500 with a clear system.",
+    "advantageP3": "Your competitor will answer inquiry emails on no schedule. You respond within 2 hours.",
+    "advantageQuote": "Consistency beats talent when talent isn't consistent.",
+    "timelineTitle": "The Timeline",
+    "timeline": [
+      { "month": "Month 1", "item": "Setup + strategy" },
+      { "month": "Month 2", "item": "First results (leads, inquiries)" },
+      { "month": "Month 3", "item": "Optimization (scaling what works)" },
+      { "month": "Month 6", "item": "Predictable customer flow" }
+    ],
+    "bottomLineTitle": "The Bottom Line",
+    "bottomLineIntro": "Getting clients in Sarasota isn't a mystery. It's:",
+    "bottomLineItems": [
+      "Being visible where customers search",
+      "Speaking directly to your ideal customer",
+      "Paid ads for speed + organic for trust",
+      "Consistent execution",
+      "Tracking and optimizing"
+    ],
+    "bottomLineOutro": "Most businesses either don't do this at all, or they do it poorly. That's your opportunity. When you implement these small business marketing Florida strategies consistently, you'll start to see real results in getting clients Sarasota businesses depend on for growth.",
+    "ctaTitle": "Ready to stop guessing and start getting actual clients?",
+    "ctaText": "Let's build a predictable client acquisition system for your business."
+  },
+  "caseStudiesPage": {
+    "title": "Case Studies",
+    "heading": "Marketing Case Studies | Real Client Results",
+    "subtitle": "Real results from real businesses",
+    "caseTitle": "Salsa Fresca Restaurant & Bar",
+    "caseLocation": "Sarasota Downtown",
+    "challengeTitle": "The Challenge",
+    "challengeText": "After opening in January 2024, Salsa Fresca was struggling to gain traction despite a prime downtown location. They were getting only around 15 customers per week with ineffective Google Ads spending. No organic social presence. Competing directly against established chains with a much larger marketing budget.",
+    "strategyTitle": "Our Strategy",
+    "strategyWeek1Title": "Week 1-2: Audit & Strategy Sprint",
+    "strategyWeek1Text": "• Analyzed competitor keywords\n• Built Facebook/Instagram content calendar\n• Restructured Google Ads to focus on high-intent keywords",
+    "strategyWeek2Title": "Week 3-4: Execution",
+    "strategyWeek2Text": "• Launched targeted Meta Ads to Sarasota locals\n• Posted first TikTok videos\n• Optimized Google Business Profile with local keywords",
+    "resultsTitle": "The Results (30 Days)",
+    "results": [
+      "Customers/week (15 → 68)",
+      "Monthly Revenue ($12K → $34K)",
+      "Google Ads ROI (was 20%)",
+      "Cost per Customer ($200 → $45)"
+    ],
+    "testimonial": "We didn't know what we were doing. They turned our ads from money-wasting into a customer machine. We're now fully booked Thursday-Saturday.",
+    "provenTitle": "Proven Results Across Industries",
+    "provenLabels": [
+      "Average customer growth in 90 days",
+      "Reduction in customer acquisition cost",
+      "Client retention rate after 6 months",
+      "Total revenue generated for clients",
+      "Successful marketing campaigns launched",
+      "Average client satisfaction rating"
+    ],
+    "provenText": "These aren't just numbers—they're real businesses in Sarasota and Florida that went from struggling to thriving. From restaurants and service providers to retail shops and professional practices, our data-driven marketing strategies deliver consistent, measurable results that grow your bottom line.",
+    "ctaTitle": "Ready for results like this?"
+  },
+  "seoContent": {
+    "homepage": "Are you a small business owner in Sarasota struggling to get consistent clients? You're not alone. In a competitive Florida market, standing out from the crowd requires more than just good service—it demands strategic marketing that actually works.\n\nAs a leading marketing agency Sarasota, Team Pulse Marketing specializes in helping local businesses like yours attract qualified leads and turn them into loyal customers. Our proven lead generation Florida strategies combine targeted ads, compelling content, and data-driven optimization to deliver real results.\n\nWhether you're a restaurant owner, service provider, or retail business, our ads for small business approach focuses on what matters most: getting you more paying customers. We understand the unique challenges of the Sarasota business landscape—from seasonal tourism fluctuations to local competition—and we tailor our strategies accordingly.\n\nOur comprehensive marketing services include: lead generation campaigns, ads for small business across Google and Meta, professional content creation, website optimization, and ongoing performance tracking.\n\nDon't let another month go by with inconsistent client flow. Join the growing number of Sarasota businesses who've transformed their marketing with Team Pulse Marketing. Book your free strategy call today and discover how we can help your Sarasota business get the clients it deserves."
+  }
+}
