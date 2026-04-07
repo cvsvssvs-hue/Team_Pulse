@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import { useLanguage } from '@/lib/language-context'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 
 export default function CaseStudies() {
   const { t } = useLanguage()
@@ -23,12 +24,15 @@ export default function CaseStudies() {
             </Link>
             <span className="text-xl font-semibold tracking-wide">{t('caseStudiesPage.title')}</span>
           </div>
-          <Link
-            href="/"
-            className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
-          >
-            {t('buttons.backHome')}
-          </Link>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <Link
+              href="/"
+              className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
+            >
+              {t('buttons.backHome')}
+            </Link>
+          </div>
         </div>
       </header>
 

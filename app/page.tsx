@@ -27,14 +27,14 @@ export default function HomePage() {
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-black/30 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-          <div className="flex flex-col">
+          <Link href="/" className="flex flex-col">
             <span className="text-xs uppercase tracking-[0.45em] text-pink-200/70">
               {t('header.teamPulse')}
             </span>
             <span className="text-xl font-semibold tracking-wide">
               {t('header.agency')}
             </span>
-          </div>
+          </Link>
 
           <nav className="hidden items-center gap-8 text-sm text-white/70 md:flex">
             <Link href="/services" className="transition hover:text-white">

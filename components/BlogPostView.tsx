@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, CheckCircle } from 'lucide-react'
 import Link from 'next/link'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 import { useLanguage } from '@/lib/language-context'
 import type { BlogPost } from '@/lib/blog-posts'
 
@@ -24,12 +25,15 @@ export default function BlogPostView({ post }: { post: BlogPost }) {
             </Link>
             <span className="text-xl font-semibold tracking-wide">{t('blogPage.title')}</span>
           </div>
-          <Link
-            href="/blog"
-            className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
-          >
-            {t('blogPage.title')}
-          </Link>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <Link
+              href="/blog"
+              className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
+            >
+              {t('blogPage.title')}
+            </Link>
+          </div>
         </div>
       </header>
 

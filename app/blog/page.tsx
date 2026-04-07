@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Calendar, Clock } from 'lucide-react'
 import Link from 'next/link'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 import { getAllBlogPosts } from '@/lib/blog-posts'
 import { useLanguage } from '@/lib/language-context'
 
@@ -26,12 +27,15 @@ export default function BlogPage() {
             </Link>
             <span className="text-xl font-semibold tracking-wide">{t('blogPage.title')}</span>
           </div>
-          <Link
-            href="/"
-            className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
-          >
-            {t('buttons.backHome')}
-          </Link>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <Link
+              href="/"
+              className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
+            >
+              {t('buttons.backHome')}
+            </Link>
+          </div>
         </div>
       </header>
 

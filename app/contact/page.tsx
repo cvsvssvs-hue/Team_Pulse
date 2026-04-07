@@ -5,6 +5,7 @@ import { Phone, Send, AtSign, Globe, Mail, CheckCircle, AlertCircle } from "luci
 import Link from "next/link";
 import { useLanguage } from "../../lib/language-context";
 import { useState } from "react";
+import LanguageSwitcher from "../../components/LanguageSwitcher";
 
 export default function ContactPage() {
   const { t } = useLanguage();
@@ -129,12 +130,15 @@ export default function ContactPage() {
             </Link>
           </nav>
 
-          <Link
-            href="/contact"
-            className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
-          >
-            {t('header.startProject')}
-          </Link>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <Link
+              href="/contact"
+              className="rounded-full border border-pink-200/25 bg-white/5 px-5 py-2 text-sm font-medium text-pink-100 transition hover:bg-white/10"
+            >
+              {t('header.startProject')}
+            </Link>
+          </div>
         </div>
       </header>
 
