@@ -51,14 +51,6 @@ export default function ContactPage() {
       }
     };
 
-    const openMailtoFallback = () => {
-      const subject = encodeURIComponent(`New Contact Form Submission from ${formData.name}`);
-      const body = encodeURIComponent(
-        `Name: ${formData.name}\nBusiness/Brand: ${formData.brand || 'Not specified'}\nContact: ${formData.contact}\n\nMessage:\n${formData.message}`
-      );
-      window.location.href = `mailto:teampulsemarketing1@gmail.com?subject=${subject}&body=${body}`;
-    };
-
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -81,8 +73,7 @@ export default function ContactPage() {
             setFormData({ name: '', brand: '', contact: '', message: '' });
           } catch (fallbackError) {
             console.error('FormSubmit fallback failed:', fallbackError);
-            openMailtoFallback();
-            setSubmitStatus('success');
+            setSubmitStatus('error');
           }
       }
     } catch (error) {
@@ -94,8 +85,7 @@ export default function ContactPage() {
         setFormData({ name: '', brand: '', contact: '', message: '' });
       } catch (fallbackError) {
         console.error('FormSubmit fallback failed:', fallbackError);
-        openMailtoFallback();
-        setSubmitStatus('success');
+        setSubmitStatus('error');
       }
     } finally {
       setIsSubmitting(false);
