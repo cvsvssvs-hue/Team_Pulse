@@ -69,6 +69,9 @@ export default function ProcessPage() {
             <Link href="/services" className="transition hover:text-white">
               {t('header.services')}
             </Link>
+            <Link href="/blog" className="transition hover:text-white">
+              {t('footer.blog')}
+            </Link>
             <Link href="/about" className="transition hover:text-white">
               {t('header.about')}
             </Link>
