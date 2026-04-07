@@ -1,8 +1,8 @@
 export const translations = {
   en: {
     header: {
-      teamPulse: "Team Pulse",
-      agency: "Team Pulse",
+      teamPulse: "Team Pulse Marketing",
+      agency: "Team Pulse Marketing",
       services: "Services",
       about: "About",
       process: "Process",
@@ -63,7 +63,7 @@ export const translations = {
     },
     contact: {
       title: "Let's build a brand that will be remembered",
-      subtitle: "Below you can substitute your real data from the business card: number, Telegram, WhatsApp, Instagram, agency name and portfolio link.",
+      subtitle: "Reach Team Pulse Marketing directly in Sarasota by phone, Telegram, WhatsApp, Instagram, email, or via portfolio.",
       form: {
         name: "Your name",
         brand: "Business / brand",
@@ -75,7 +75,7 @@ export const translations = {
     seoContent: {
       homepage: `Are you a small business owner in Sarasota struggling to get consistent clients? You're not alone. In a competitive Florida market, standing out from the crowd requires more than just good service—it demands strategic marketing that actually works.
 
-      As a leading marketing agency Sarasota, Team Pulse specializes in helping local businesses like yours attract qualified leads and turn them into loyal customers. Our proven lead generation Florida strategies combine targeted ads, compelling content, and data-driven optimization to deliver real results.
+      As a leading marketing agency Sarasota, Team Pulse Marketing specializes in helping local businesses like yours attract qualified leads and turn them into loyal customers. Our proven lead generation Florida strategies combine targeted ads, compelling content, and data-driven optimization to deliver real results.
 
       Whether you're a restaurant owner, service provider, or retail business, our ads for small business approach focuses on what matters most: getting you more paying customers. We understand the unique challenges of the Sarasota business landscape—from seasonal tourism fluctuations to local competition—and we tailor our strategies accordingly.
 
@@ -86,15 +86,15 @@ export const translations = {
       • Website optimization that turns visitors into clients
       • Ongoing performance tracking and optimization
 
-      Don't let another month go by with inconsistent client flow. Join the growing number of Sarasota businesses who've transformed their marketing with Team Pulse. Our track record speaks for itself—with clients seeing an average of 300% increase in qualified leads within the first 90 days.
+      Don't let another month go by with inconsistent client flow. Join the growing number of Sarasota businesses who've transformed their marketing with Team Pulse Marketing. Our track record speaks for itself—with clients seeing an average of 300% increase in qualified leads within the first 90 days.
 
       Ready to stop guessing and start growing? Book your free strategy call today and discover how we can help your Sarasota business get the clients it deserves.`
     }
   },
   ru: {
     header: {
-      teamPulse: "Team Pulse",
-      agency: "Team Pulse",
+      teamPulse: "Team Pulse Marketing",
+      agency: "Team Pulse Marketing",
       services: "Услуги",
       about: "О нас",
       process: "Процесс",
@@ -155,7 +155,7 @@ export const translations = {
     },
     contact: {
       title: "Давай соберём бренд, который запомнят",
-      subtitle: "Ниже можешь подставить свои реальные данные с визитки: номер, Telegram, WhatsApp, Instagram, название агентства и ссылку на портфолио.",
+      subtitle: "Свяжитесь с Team Pulse Marketing в Сарасоте напрямую через телефон, Telegram, WhatsApp, Instagram, email или портфолио.",
       form: {
         name: "Твоё имя",
         brand: "Бизнес / бренд",
@@ -167,8 +167,8 @@ export const translations = {
   },
   ko: {
     header: {
-      teamPulse: "Team Pulse",
-      agency: "마케팅 에이전시",
+      teamPulse: "Team Pulse Marketing",
+      agency: "Team Pulse Marketing",
       services: "서비스",
       about: "회사 소개",
       process: "프로세스",
@@ -229,7 +229,7 @@ export const translations = {
     },
     contact: {
       title: "기억에 남을 브랜드를 만들어 봅시다",
-      subtitle: "아래에 귀하의 실제 데이터를 명함에서 대체할 수 있습니다: 번호, Telegram, WhatsApp, Instagram, 에이전시 이름 및 포트폴리오 링크.",
+      subtitle: "Sarasota의 Team Pulse Marketing에 전화, Telegram, WhatsApp, Instagram, 이메일 또는 포트폴리오를 통해 직접 문의하세요.",
       form: {
         name: "귀하의 이름",
         brand: "비즈니스 / 브랜드",

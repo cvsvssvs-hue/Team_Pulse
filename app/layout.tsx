@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Marketing Agency Sarasota | Team Pulse",
+  title: "Marketing Agency Sarasota | Team Pulse Marketing",
   description: "We help businesses in Sarasota and Florida get clients with ads, content, and automation.",
   verification: {
     google: "VHeeVehoZyTWXb3cEMaSXXMudI6ZM8p8sPfT0qoYxGo",

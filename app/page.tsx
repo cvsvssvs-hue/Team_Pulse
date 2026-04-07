@@ -153,7 +153,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="rounded-full border border-pink-200/20 px-3 py-1 text-xs text-pink-100/80">
-                Team Pulse Style
+                Team Pulse Marketing Style
               </div>
             </div>
 
@@ -232,7 +232,7 @@ export default function HomePage() {
                   {t('header.teamPulse')}
                 </span>
                 <span className="text-xl font-semibold tracking-wide">
-                  Team Pulse
+                  Team Pulse Marketing
                 </span>
               </div>
               <p className="text-white/60 max-w-md">

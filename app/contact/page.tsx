@@ -1,12 +1,57 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, Send, AtSign, Globe, Mail } from "lucide-react";
+import { Phone, Send, AtSign, Globe, Mail, CheckCircle, AlertCircle } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "../../lib/language-context";
+import { useState } from "react";
 
 export default function ContactPage() {
   const { t } = useLanguage();
+  const [formData, setFormData] = useState({
+    name: '',
+    brand: '',
+    contact: '',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({ name: '', brand: '', contact: '', message: '' });
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <main className="min-h-screen bg-[#07070a] text-white">
@@ -110,7 +155,16 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-sm text-white/60">Telegram</div>
-                    <div className="font-medium">@yourtelegram</div>
+                    <div className="font-medium">@theteampulse</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-pink-200/30 to-rose-300/20">
+                    <Send className="h-5 w-5 text-pink-100" />
+                  </div>
+                  <div>
+                    <div className="text-sm text-white/60">WhatsApp</div>
+                    <div className="font-medium">+1 (941) 735-6655</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -119,16 +173,16 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-sm text-white/60">Instagram</div>
-                    <div className="font-medium">@youragency</div>
+                    <div className="font-medium">@the.team.pulse</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-pink-200/30 to-rose-300/20">
-                    <Globe className="h-5 w-5 text-pink-100" />
+                    <Send className="h-5 w-5 text-pink-100" />
                   </div>
                   <div>
-                    <div className="text-sm text-white/60">Website</div>
-                    <div className="font-medium">yourwebsite.com</div>
+                    <div className="text-sm text-white/60">Reddit</div>
+                    <div className="font-medium">u/Individual_Might3830</div>
                   </div>
                 </div>
               </div>
@@ -160,13 +214,18 @@ export default function ContactPage() {
             className="rounded-[2rem] border border-white/10 bg-white/5 p-8 backdrop-blur-xl"
           >
             <h3 className="mb-6 text-2xl font-semibold">Send us a message</h3>
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid gap-4 md:grid-cols-2">
                 <div>
                   <label className="mb-2 block text-sm text-white/70">
                     {t('contact.form.name')}
                   </label>
                   <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleInputChange}
+                    required
                     className="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 outline-none placeholder:text-white/30 focus:border-pink-200/50"
                     placeholder={t('contact.form.name')}
                   />
@@ -176,6 +235,10 @@ export default function ContactPage() {
                     {t('contact.form.brand')}
                   </label>
                   <input
+                    type="text"
+                    name="brand"
+                    value={formData.brand}
+                    onChange={handleInputChange}
                     className="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 outline-none placeholder:text-white/30 focus:border-pink-200/50"
                     placeholder={t('contact.form.brand')}
                   />
@@ -186,6 +249,11 @@ export default function ContactPage() {
                   {t('contact.form.contact')}
                 </label>
                 <input
+                  type="text"
+                  name="contact"
+                  value={formData.contact}
+                  onChange={handleInputChange}
+                  required
                   className="w-full rounded-2xl border border-white/10 bg-black/20 px-4 py-3 outline-none placeholder:text-white/30 focus:border-pink-200/50"
                   placeholder={t('contact.form.contact')}
                 />
@@ -195,16 +263,36 @@ export default function ContactPage() {
                   {t('contact.form.message')}
                 </label>
                 <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleInputChange}
+                  required
                   rows={5}
                   className="w-full resize-none rounded-2xl border border-white/10 bg-black/20 px-4 py-3 outline-none placeholder:text-white/30 focus:border-pink-200/50"
                   placeholder={t('contact.form.message')}
                 />
               </div>
+
+              {submitStatus === 'success' && (
+                <div className="flex items-center gap-2 rounded-2xl bg-green-500/10 border border-green-500/20 p-4">
+                  <CheckCircle className="h-5 w-5 text-green-400" />
+                  <span className="text-green-400">Message sent successfully!</span>
+                </div>
+              )}
+
+              {submitStatus === 'error' && (
+                <div className="flex items-center gap-2 rounded-2xl bg-red-500/10 border border-red-500/20 p-4">
+                  <AlertCircle className="h-5 w-5 text-red-400" />
+                  <span className="text-red-400">Failed to send message. Please try again.</span>
+                </div>
+              )}
+
               <button
                 type="submit"
-                className="w-full rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 py-4 text-lg font-semibold text-black transition hover:scale-[1.01] hover:shadow-lg hover:shadow-pink-500/25"
+                disabled={isSubmitting}
+                className="w-full rounded-full bg-gradient-to-r from-pink-200 via-rose-200 to-fuchsia-200 py-4 text-lg font-semibold text-black transition hover:scale-[1.01] hover:shadow-lg hover:shadow-pink-500/25 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {t('contact.form.send')}
+                {isSubmitting ? 'Sending...' : t('contact.form.send')}
               </button>
             </form>
           </motion.div>

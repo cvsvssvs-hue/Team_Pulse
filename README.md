@@ -1,6 +1,6 @@
-# Team Pulse - Marketing Agency Website
+# Team Pulse Marketing - Marketing Agency Website
 
-A complete marketing agency website for Team Pulse, specializing in Sarasota business growth. Features professional landing page, service pages, case studies, blog, and contact forms with multi-language support.
+A complete marketing agency website for Team Pulse Marketing, specializing in Sarasota business growth. Features professional landing page, service pages, case studies, blog, and contact forms with multi-language support.
 
 ## 🌍 Multi-Language Support
 
